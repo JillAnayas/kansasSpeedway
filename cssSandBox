@@ -1,0 +1,4480 @@
+/***********************************
+*  KAS Theme
+*  Created on: 01/2014
+*  Jill Anayas
+***********************************/
+
+
+
+/************************************ BEGIN HOME PAGE *** **********************************************************************************/
+/********************************************************************************************************************************************/
+body {
+	background:#131f42;
+	margin:0;
+	/*font-family:Tahoma, Geneva, sans-serif;*/
+	font-family: 'Calibri', Tahoma, sans-serif;
+	font-size:12px;
+	color:#B8C4FA;
+	padding:10px 0 0;
+}
+/*ol, ul {
+    list-style: none;
+}*/
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+img{
+	border:none;
+}
+
+#siteHeader ul, #mainFooter ul {
+    list-style: none outside none;
+}
+
+
+#wrapper {
+	position: relative;
+	background:#182753;
+	width:990px;
+	text-align:left;
+	margin:0 auto;
+}
+.layoutHome{
+	background-color: #131f42;
+	width: 100%;
+	margin: 0 auto;
+}
+.moduleContentInner{
+	color: #b8c4fa;
+	font-family: 'Calibri';
+	font-size: 14px;
+}
+
+#siteHeader {
+	background: #131F42;
+	width:990px;
+	margin:0 auto;
+	position:relative;
+	text-align:left;
+	padding:0;
+	z-index:1;
+}
+#siteHeaderInner {
+	width:990px;
+	position:relative;
+	height:167px;
+}
+li a {
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	color: #fff;
+	
+}
+li a:hover{
+	color: #ffc629;
+}
+a, a:visited {
+	text-decoration:none;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-family: 'Calibri';
+	color:#fff;
+}
+a:hover {
+	color:#ffc629;
+	text-decoration:none;
+}
+#siteHeader a  {
+	color:#fff;
+	font-weight:bold;
+}
+#siteHeader a:hover  {
+	color:#ffc629;
+	text-decoration:none;
+}
+#mainFooter{
+	background-color: #131f42;
+	padding: 20px 0 50px 0;
+	height:200px;
+}
+#mainFooter a {
+	color:#fff;
+	font-size:11px;
+	font-weight:normal;
+}
+#mainFooter a:hover {
+	color:#ffc629;
+	text-decoration:none;
+}
+#socialHeaderNav img{
+	border: none;
+}
+p {
+	margin:0 0 10px;
+	color: #b8c4fa;
+}
+
+h1, h2, h3, h4, h5 {
+	margin:0;
+	padding:0;
+}
+h1,
+.genericPageTitle{
+	font-family: Impact;
+	font-size: 36px;
+	font-weight: normal;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	color: #ffc629;
+	padding: 0 0 10px 10px;
+	width:960px;
+}
+ul, ol {
+	padding: 0;
+	margin:0;
+}
+form {
+	margin:0;
+	padding:0;
+}
+.multipleOptIn .newsletterInput{
+	margin:2px 0 0 12px !important;
+	
+}
+
+.multipleOptIn button{
+	margin:10px auto !important;
+	display:block;
+}
+
+.multipleOptIn{
+	width:600px;
+	background-color:#404F77;
+	height:200px;
+}
+
+.multipleOptIn button{
+	margin: 10px 0 27px 46px;
+	width: 80px;
+	height: 25px;
+	text-transform: uppercase;
+	background-color: #dd0a48;
+	border: none;
+	color: #fff;	
+}
+.layoutI .multipleOptIn button{
+	margin: 10px 0 27px 1px;
+	width: 80px;
+	height: 25px;
+	text-transform: uppercase;
+	background-color: #dd0a48;
+	border: none;
+	color: #fff;	
+}
+/********************************************** -- Header -- ***************************/
+#siteLogo {
+	background:url(/media/kas/images/new2014/Logo.png) #fff no-repeat 0 0;
+	width:296px;
+	height:114px; 
+	text-indent:-9999px;
+	padding-top: 1px;
+	position:absolute;
+	top:50px;
+	z-index:10;
+}
+#siteHeader .adModule {
+	width:729px;
+	height:90px;
+	padding:3px;
+	float:left;
+	margin:8px 0 0;
+	display: none;
+}
+#headerLinksandInfo {
+	float:left;
+	font-size:11px;
+	color:#b8c4fa;
+	position:absolute;
+	top:20px;
+	left:35px;
+}
+#headerInfoBox{
+	float:left;
+	margin:0;
+}
+#socialHeaderNav{
+	position:absolute;
+	right:25px;
+	top:10px;
+}
+#socialHeaderNav ul {
+	float: left;
+	height: 50px;
+}
+#socialHeaderNav li{
+	float: left;
+	margin: 5px 0 0 5px;
+}
+
+/************* HollyWood Casino & FanShop Upper HeaderLinks*************/
+#headerLinkBox{
+	float: left;
+	margin:0 0 0 5px;
+	font-size:11px !important;
+}
+#headerLinkBox li a {
+	text-transform: uppercase;
+	color: #fff;
+}
+#headerLinkBox li {
+	padding-right:5px;
+	margin:0;
+	line-height:11px;
+	display:inline-block;
+	padding-left:7px;
+	border-left:1px solid #fff;
+}
+
+/*********** Search Box Turned Off ************/
+#headerSearch {
+	display: none;
+}
+
+/************* -- Navigation -- *************/
+/*#siteNavMain{
+	position:absolute;
+	top:50px;
+	left:296px;	
+}*/
+#headerBottom{
+	left: 0;
+    padding-left: 296px;
+    position: absolute;
+    top: 50px;
+}
+#siteNavMain li {
+	margin: 0px 1px 0 0;
+	float:left;
+}
+#siteNavMain li a {
+	display:block;
+	color: #fff;
+	font-size:17px;
+	padding:45px 0 51px;
+}
+
+/******************************************** Global Nav Section ***************************/
+.manNavLink{
+	background-color: #131F42;
+	width: 78px;
+	height: 75px;
+}
+#nav_tickets {
+	background:url("/media/kas/images/new2014/TicketsNav.png") no-repeat;
+	width: 150px;
+	height: 115px;
+	float: left;
+	text-indent:-9999px;
+	padding:0 0 2px !important;
+}
+
+/*  Tickets Navigation Border White Line */
+#headerTopLine{
+	background: url("/media/kas/images/new2014/HeaderWhiteLine.png") repeat-x;
+	width: 990px;
+	position:absolute;
+	top:164px;
+	height:3px;
+}
+#nav_visitors {
+	width:110px;
+	clear: left;
+	float: left;
+}
+#nav_racing {
+	width:145px;
+	clear: left;
+	float: left;
+}
+#nav_racing li a{
+	height: 65px;
+}
+
+#nav_news {
+	width:120px;
+	clear: left;
+	float: left;
+}
+#nav_track {
+	width:51px;
+	clear: left;
+	float: left;
+}
+#nav_track li a{
+	height: 65px;
+	margin: 500px 0 0 500px;
+}
+/* -- Ribbon -- */
+#siteNavMain li ul {
+	position:absolute; 
+	top:-9999px;
+  	left:0;
+	list-style:none;
+	margin:0;
+	padding:0;
+	width:120px;
+}
+#siteNavMain li:hover ul, #siteNavMain li.sfhover ul { 
+	top:117px;
+	display:block;
+	/*left:-296px;*/
+}
+#siteNavMain li ul li ul {
+	list-style:none;
+	float:left;
+	position:inherit;
+	padding:0;
+		
+}
+#siteNavMain li ul li ul li {
+	padding:0 0 5px 10px;
+	width:98% !important;
+	background:none !important;
+}
+#siteNavMain li ul li ul.subNavCol3 li{
+	padding:0 5px 5px 10px;
+}
+#siteNavMain li ul li ul.subNavCol4 li{
+	padding:0 10px 5px 5px;
+}
+#siteNavMain li ul li ul li ul li {
+	padding:0;
+}
+#siteNavMain li ul li ul.subNavCol1,
+#siteNavMain li ul li ul.subNavCol2{
+	width:220px;
+	padding-left:5px;
+	margin-bottom:20px;
+}
+#siteNavMain li ul li ul.subNavCol3,
+#siteNavMain li ul li ul.subNavCol4{
+	width:220px;
+	padding-left:5px;
+	margin-bottom:20px;
+}
+#siteNavMain li ul li ul.subNavCol4{
+	padding-right:5px;
+}
+#siteNavMain li ul li a {
+	height: 11px;
+	color:#fff;
+	font-size:11px;
+	display:inline-block;
+}
+#siteNavMain li ul li a:hover {
+	text-decoration:none;
+	height: 11px;
+	color:#2c2300;
+}
+/* ************ SUB NAV ************ */
+#siteNavMain .subNavAdDrop{
+	width: 990px;
+	background-color: #15234A;
+	padding:20px 0;
+}
+#siteNavMain .subNavAdDrop li{
+	background: #15234A url('/Media/Kas/images/new2014/navBackground_Image.jpg') repeat-y 0 0;
+	width:100%;
+}
+#siteNavMain .subNavAdDrop .subNavCol1{
+	margin:0 0 0 40px;
+}
+#siteNavMain .subNavAdDrop .secondaryNavText{
+	font-family: Impact;
+	font-size: 22px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	color: #ffc629;
+}
+#siteNavMain .subNavAdDrop .tertNav{
+	padding-top:10px;
+	width:100%;
+}
+#siteNavMain .subNavAdDrop .secondaryNavText a{
+	padding:0 0 0 15px;
+}
+#siteNavMain .subNavAdDrop .tertNav li a,
+#siteNavMain .subNavAdDrop .navITLButton{
+	height: auto;
+	font-size: 12px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	line-height: 11px;
+	padding:3px 0 3px 15px;
+	margin-left:-15px;
+}
+
+#siteNavMain .subNavAdDrop .tertNav li a:hover,
+#siteNavMain .subNavAdDrop .navITLButton:hover{
+	background-color: #2c4aa0;
+	width: 100%;
+	height: auto;
+	color: #ffc629;
+}
+#siteNavMain .subNavAdDrop .navITLButton:hover{
+	background:none;
+}
+#siteNavMain .subNavAdDrop .subNavCol2 .secondaryNavText{
+	text-indent:-9999px
+}
+#siteNavMain .subNavAdDrop .subNavCol3 .secondaryNavText,
+#siteNavMain .subNavAdDrop .subNavCol4 .secondaryNavText,
+#siteNavMain .subNavAdDrop .subNavCol3 .secondaryNavText .navITLTitle a,
+#siteNavMain .subNavAdDrop .subNavCol4 .secondaryNavText .navITLTitle a{
+	font-family: 'Calibri';
+	font-size: 14px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	color: #ffc629;
+}
+#siteNavMain .subNavAdDrop .subNavCol3 .secondaryNavText .navITLTitle a,
+#siteNavMain .subNavAdDrop .subNavCol4 .secondaryNavText .navITLTitle a,
+#siteNavMain .subNavAdDrop .subNavCol3 .secondaryNavText .navITLImageContainer a,
+#siteNavMain .subNavAdDrop .subNavCol4 .secondaryNavText .navITLImageContainer a{
+	margin:0;
+	padding:0;
+}
+#siteNavMain .subNavAdDrop .subNavCol3 .secondaryNavText .navITLImageContainer,
+#siteNavMain .subNavAdDrop .subNavCol4 .secondaryNavText .navITLImageContainer{
+	margin: 15px 0 0 0;
+	height: 130px;
+}
+/******************** Column 1 ******************************/
+.layoutHome #mainContentCol1{
+	margin: 0 0 50px 0;
+}
+/* ************************* COLUMN 1 STATIC IMAGES SECTION************************* */
+#featureTiles{
+	height: 406px;
+	background-color: #fff;
+	position: relative;
+	font-size: 12px;
+	text-transform: none;
+	letter-spacing: 1px;
+	color: #b8c4fa;
+}
+#featureTiles a{
+	font-size: 12px;
+	text-transform: none;
+	font-weight: normal;
+	letter-spacing: 1px;
+	color: #fff;
+}
+#featureTiles a:hover{
+	color: #ffc629;
+}
+.tiles5 #tpLftImg{
+	margin:0;
+	background-color: #666;
+	position: absolute;
+	top:0;
+	left:0;
+}
+.tiles5 .tpLftImg{
+	width: 300px;
+    max-height:65px;
+    background: url("/media/kas/images/new2014/MiddleRibbon.png");
+	display: inline-block;
+	position:relative;
+	top:125px;
+	float:left;
+}
+.tiles5 .tpLftImg span{
+	clear: both;
+	float: left;
+	width: 250px;
+	margin: 0 0 5px 10px;
+	padding:5px 0 0 0;
+}
+.tiles5 #btmLftImg{
+	background-color: #666;
+	position: absolute;
+	top:202px;
+	left:0;
+}
+.tiles5 .btmLftImg{
+	width: 300px;
+	background: url("/media/kas/images/new2014/MiddleRibbon.png");
+	display: inline-block !important;
+	position:relative;
+	top:125px;
+	max-height:65px;
+	float:left;
+	
+}
+.tiles5 .btmLftImg span{
+	clear: both;
+	float: left;
+	width: 250px;
+	margin: 0px 0 5px 10px;
+	padding: 5px 0 0 0;
+}
+.tiles5 #cntrImg{
+	position: absolute;
+	top:0;
+	left:312px;
+}
+.tiles5 .cntrImg{
+	width: 300px;
+	max-height:65px;
+	background: url("/media/kas/images/new2014/MiddleRibbon.png");
+	display: inline-block;
+	position:relative;
+	top:327px;
+	float:left;
+}
+.tiles5 .cntrImg span{
+	clear: both;
+	float: left;
+	width: 250px;
+	margin: 0 0 5px 10px;
+	padding:5px 0 0 0;
+}
+.tiles5 #tpRtImg{
+	position: absolute;
+	top:0;
+	right:0;
+}
+.tiles5 .tpRtImg{
+	width: 300px;
+	max-height:65px;
+	background: url("/media/kas/images/new2014/BottomRightRibbon.png");
+	display: inline-block;
+	position:relative;
+	top:125px;
+	right:0px;
+	clear:right;
+	float:right;
+}
+.tiles5 .tpRtImg span{
+	float: right;
+	display: inline-block;
+	width: 250px;
+	padding-top: 5px;
+	margin: 0 0 5px 40px;
+}
+.tiles5 #btmRtImg{
+	clear: both;
+	position: absolute;
+	top:202px;
+	right:0;
+}
+.tiles5 .btmRtImg{
+	clear: right;
+	float: right;
+	width: 300px;
+	max-height:65px;
+	background: url("/media/kas/images/new2014/BottomRightRibbon.png");
+	position:relative;
+	top:125px;
+	right:0;
+}
+.tiles5 .btmRtImg span{
+	margin: 0 0 5px 40px;
+	display: inline-block;
+	width: 250px;
+	padding: 5px 0 0 0;	
+}
+.tiles3 a{
+	display:block;
+	float:left;
+	margin-right:3px;
+}
+.tiles3 a:last-child{
+	margin-right:0;
+	position:absolute;
+	right:0;
+}
+.tiles3 a div div{
+	float:left;
+	position:relative;
+	top:300px;
+	width: 300px;
+	max-height:65px;
+	background: url("/media/kas/images/new2014/MiddleRibbon.png");
+}
+.tiles3 a:last-child div div{
+	width: 300px;
+	max-height:65px;
+	background: url("/media/kas/images/new2014/BottomRightRibbon.png");
+	float:right;
+}
+.tiles3 a div div span{
+	clear: both;
+	float: left;
+	width: 250px;
+	margin: 0 0 5px 10px;
+	padding:5px 0 0 0;
+}
+.tiles3 a:last-child div div span{
+	margin: 0 0 5px 40px;
+	display: inline-block;
+	width: 250px;
+	padding: 5px 0 0 0;
+}
+.tiles1 a div div{
+	float:left;
+	position:relative;
+	top:280px;
+	width: 300px;
+	max-height:65px;
+	background: url("/media/kas/images/new2014/MiddleRibbon.png");
+}
+.tiles1 a div div span{
+	clear: both;
+	float: left;
+	width: 250px;
+	margin: 0 0 5px 10px;
+	padding:5px 0 0 0;
+}
+/***************COLUMN 1 CONTINUED - IMAGE TILES With BUTTON LINK SECTION **************************/
+.layoutHome #MultiColumns4{
+	width: 990px;
+	margin-bottom:0;
+}
+.layoutHome #MultiColumns4 .column1, 
+.layoutHome #MultiColumns4 .column2, 
+.layoutHome #MultiColumns4 .column3, 
+.layoutHome #MultiColumns4 .column4{
+	float: left;
+}
+.layoutHome #MultiColumns4 .column1 .imageWrapper, 
+.layoutHome #MultiColumns4 .column2 .imageWrapper, 
+.layoutHome #MultiColumns4 .column3 .imageWrapper, 
+.layoutHome #MultiColumns4 .column4 .imageWrapper{
+	background-color:#ffffff;
+	padding:10px 0 10px 10px;
+}
+.layoutHome #MultiColumns4 .column4 .imageWrapper{
+	padding-right:10px;
+}
+.layoutHome #MultiColumns4 .column1 .imageWrapper .imageLink .imageBackground, 
+.layoutHome #MultiColumns4 .column2 .imageWrapper .imageLink .imageBackground, 
+.layoutHome #MultiColumns4 .column3 .imageWrapper .imageLink .imageBackground, 
+.layoutHome #MultiColumns4 .column4 .imageWrapper .imageLink .imageBackground{
+	background-color: #273f93;
+	width: 235px;
+	height: 152px;
+	padding: 28px 0 0 0;
+}
+.layoutHome #MultiColumns4 .imageWrapper a:hover .iconWrapper{
+	/*background-position: 0 -112px !important;*/
+	background-position: 0 -113px !important; /*Changed for new icons JM*/
+}
+.layoutHome #MultiColumns4 .imageIconTitle .iconWrapper{
+    margin:auto;
+    width:112px;
+    height:113px;
+}
+.layoutHome #MultiColumns4 .imageIconTitle .imageLink .imageBackground{
+	width: 116px;
+	height: 237px;
+}
+.layoutHome #MultiColumns4 .imageIconTitle .titleWrapper a .genericModuleHeader{
+	height: 15px;
+	font-family: sans-serif;
+	font-size: 14px;
+	text-align: center;
+	color: #fff;
+	padding-top:10px;
+	font-weight:bold;
+}
+/********************************************** UPCOMING EVENTS SECTION **********************************************/
+.layoutHome .upcomingEventsModuleCountdown{
+	clear: left;
+	width: 990px;
+	background-color: #15234a;
+	padding-top:10px;
+}
+.layoutHome #mainContentCol1 .upcomingEventsModuleCountdown{
+	clear: left;
+	margin: 0px 0 0 0;
+}
+/* Header Upcoming Events */
+.layoutHome .upcomingEventsModuleCountdown .genericModuleHeader{
+	padding-left:10px;
+}
+ /********************************************** COUNT DOWN CLOCK SECTION  - OF UPCOMING EVENTS SECTION **********************************************/
+.layoutHome #countdownWrapper{
+	margin: 0 0 10px 0;
+	background: url('/Media/Kas/images/new2014/CountDownClockBg.png') no-repeat;
+	background-color: #273f93;
+	width: 990px;
+	position:relative;
+	height:56px;
+}
+.layoutHome #countdownWrapper #uxExtraTitle{
+	width:400px;
+	float:left;
+}
+.layoutHome #countdownWrapper #uxExtraTitle .countdownDate{
+	margin: 9px 0 0 80px;
+	clear: left;
+	float: left;
+	font-family: Impact;
+	font-size: 30px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	color: #fff;
+}
+.layoutHome #countdownWrapper .countdownLogo .countdownImg{
+	margin: 0 0 0 85px;
+	border: none;
+}
+.layoutHome #countdownWrapper .countdownClock{
+	/*width:590px;*/ /*Breaking clock in Chrome and Safari JM*/
+}
+.layoutHome .countdownClock .timeLabels{
+	display:block;
+}
+.layoutHome .countdownClock .countdownDay{
+	margin: 9px 0 0 50px;
+	clear: left;
+	float: left;
+	font-family: Impact;
+	font-size: 30px;
+	letter-spacing: 2px;
+	color: #fff;
+}
+.layoutHome .countdownClock tbody .timeLabels #countdownDay{
+	clear: left;
+	float: left;
+	margin: -28px 0 0 110px;
+	width: 50px;
+	background: url(/media/kas/images/new2014/CountDownClockDays.png) no-repeat;
+	font-family: Impact;
+	font-size: 22px;
+	text-transform: uppercase;
+	color: #ffc629;
+	text-align:left;
+	text-indent:-9999px;
+}
+.layoutHome .countdownClock .countdownHour{
+	margin: -38px 0 0 210px;
+	clear: left;
+	float: left;
+	font-family: Impact;
+	font-size: 30px;
+	letter-spacing: 2px;
+	color: #fff;
+}
+.layoutHome .countdownClock tbody .timeLabels #countdownHour{
+	clear: left;
+	float: left;
+	margin: -28px 0 0 270px;
+	width: 65px;
+	background: url(/media/kas/images/new2014/CountDownClockHours.png) no-repeat;
+	font-family: Impact;
+	font-size: 22px;
+	text-transform: uppercase;
+	color: #ffc629;
+	text-align:left;
+	text-indent:-9999px;
+}
+.layoutHome .countdownClock .countdownMin{
+	margin: -38px 0 0 400px;
+	clear: left;
+	float: left;
+	font-family: Impact;
+	font-size: 30px;
+	letter-spacing: 2px;
+	color: #fff;
+}
+.layoutHome .countdownClock tbody .timeLabels #countdownMin{
+	clear: left;
+	float: left;
+	margin: -28px 0 0 460px;
+	width: 85px;
+	background: url(/media/kas/images/new2014/CountDownClockMinutes.png) no-repeat;
+	font-family: Impact;
+	font-size: 22px;
+	text-transform: uppercase;
+	color: #ffc629;
+	text-align:left;
+	text-indent:-9999px;
+}
+.layoutHome .countdownClock .countdownSec{
+	display: none;
+}
+.layoutHome .countdownClock tbody .timeLabels #countdownSec{
+	display: none;
+}
+/********************************************** UPCOMING EVENTS SECTION CONTINUED - EVENT CARDS**********************************************/
+.layoutHome #upcomingEventsWrapper{
+	float:left;
+}
+.layoutHome #upcomingEventsWrapper .upcomingEventsList{
+	margin: 0 0 0 10px;
+	width: 990px;
+}
+/* Hover Color Effect */
+.upcomingEventImgWrapper{
+	position: relative;
+	float: left;
+	cursor: pointer;
+}
+/* Hover Color Effect */
+.upcomingEventImgWrapper:before{
+	content: '';
+	display: block;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: rgba(44, 67, 174, 0.5);
+	-moz-transition: background .3s linear;
+	-webkit-transition: background .3s linear;
+	-o-transition: background .3s linear;
+}
+/* Hover Color Effect */
+.upcomingEventImgWrapper:hover:before{
+	background: none;
+}
+/* End Hover Effect */
+.layoutHome .upcomingEventImgWrapper .upcomingEventImage{
+	width: 316px;
+	height: 197px;
+	background-color: #fff;
+	border: none;
+}
+.layoutHome #upcomingEventsWrapper .upcomingEventsList li {
+	width: 316px;
+	float: left;
+	margin: 0 12px 10px 0;
+	min-height:345px;
+}
+/* Styling For Every 3rd Event Card */
+.layoutHome #upcomingEventsWrapper .upcomingEventsList li:nth-child(3n){
+	
+}
+/* End of Every 3rd Event Card Styling */
+.layoutHome #upcomingEventsWrapper .upcomingEventInfo{
+	display:inline-block;
+	background-color:#FFF;
+	width:100%;
+	min-height:99px;
+}
+.layoutHome #upcomingEventsWrapper .upcomingEventInfo .upcomingEventDate{
+	margin: 3px 0px 3px 5px;	
+	font-family: Impact;
+	font-size: 12px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	color: #192957;
+	font-weight:normal;
+}
+.layoutHome #upcomingEventsWrapper .upcomingEventInfo .upcomingEventTitle{
+	margin: 0 5px 20px 5px;
+	height: 30px;
+	color: #ba063b;
+	font-style: italic;
+	text-transform: capitalize;
+	font-size: 14px;
+	font-weight: 600;
+	letter-spacing: 1px;
+	line-height: 15px;
+	cursor:pointer;
+}
+.layoutHome #upcomingEventsWrapper .upcomingEventInfo .upcomingEventTitle a{
+	padding: 5px 0 0 0;
+	font-style: italic;
+	text-transform: capitalize;
+	font-size: 14px;
+	font-weight: 600;
+	letter-spacing: 1px;
+	line-height: 15px;
+	color: #ba063b;
+}
+.layoutHome #upcomingEventsWrapper .upcomingEventInfo .upcomingEventTitle a:hover{
+	color: #f20a31;
+}
+.layoutHome #upcomingEventsWrapper .upcomingEventButton .upcomingEventButton{
+	height: 15px;	
+	font-size: 11px;
+	font-weight: 600;
+	text-transform: capitalize;
+	color: #2c43ae;
+}
+/* Main Div for buttonIcons */
+.layoutHome #upcomingEventsWrapper .upcomingEventButton{
+	margin: 0 4px 11px 2px;
+	padding: 0 4px 0 0;
+}
+.layoutHome #upcomingEventsWrapper #upcomingEventTravelButton{
+	background: url('/media/kas/images/new2014/TravelIcon2.png') no-repeat;
+	padding-left: 17px;
+}
+.layoutHome #upcomingEventsWrapper #upcomingEventScheduleButton{
+	background: url('/media/kas/images/new2014/CalendarIcon3.png') no-repeat;
+	padding-left: 18px;
+}
+.layoutHome #upcomingEventsWrapper #upcomingEventCampingButton{
+	background: url('/media/kas/images/new2014/RVIcon2.png') no-repeat;
+	padding-left: 23px;
+}
+.layoutHome #upcomingEventsWrapper .upcomingEventTixButton .upcomingEventTicketsButton{
+	background: url('/media/kas/images/new2014/upcomingEvents_btn.jpg') no-repeat;
+	display: block;
+	text-indent: -9999px;
+	width: 316px;
+	height: 45px;
+	
+}
+.layoutHome #upcomingEventsWrapper .upcomingEventTixButton .upcomingEventTicketsButton:hover{
+	background-position:0 -45px;
+}
+/************************* InfoGraphic Section **************************/
+.layoutHome .smalEventAltPromo{
+	width: 970px;
+	margin: 0 auto;
+	background-color: #172651;
+	position: relative;
+}
+.layoutHome .smalEventAltPromo img{
+	border: none;
+	margin:0 auto;
+	display:block;
+}
+/************************  COLUMN 2  Video Group ******************/
+.layoutHome #mainContentCol2 {
+	margin: 0 10px;
+	width: 660px;
+	position: relative;
+	float:left;
+}
+/* Video Header Styling */
+/************************  COLUMN 3 FaceBook Group ******************/
+.layoutHome #mainContentCol3 {
+	width: 300px;
+	float:left;
+}
+.layoutHome #mainTripleColWrap{
+	width:100%;
+	clear: left;
+	overflow: hidden;
+	position: relative;
+}
+/************************  COLUMN 4 Full Width Ad Slider Module ******************/
+.layoutHome #mainContentCol4{
+	clear: left;
+	position: relative;
+}
+.layoutHome #mainContentCol4 .genericModuleHeader{
+	margin: 0 0 0 10px;
+}
+.layoutHome .container{
+	width:990px;
+	margin-bottom:10px;
+}
+.layoutHome #mainContentCol4 .scrollWrapper{
+	width: 990px;
+	height: 50px;
+	clear: both;
+}
+.layoutHome .scroll{
+	padding: 0 20px 0 10px;
+	/*background-color: #16317a;*/
+}
+.layoutHome .scroll li .image{
+	margin: 10px 0 0 10px;
+	height: 35px;
+	border: none;
+}
+/************************************* -- Footer -- *************************/
+#mainFooter {
+	width:990px;
+	text-align:left;
+	margin: 0 auto;
+}
+#mainFooterInner{
+	position:relative;
+}
+.bottomLinks{
+	position:absolute;
+	top:0;
+	left:20px;
+}
+.bottomLinks ul{
+	float:left;
+	margin-right:40px;
+}
+.bottomLinks ul li a{
+	font-family: Impact;
+	font-size: 18px !important;
+	letter-spacing: 2px;
+	color: #ffc629 !important;
+	text-transform: uppercase;
+	display:block;
+	margin-bottom:10px
+}
+.bottomLinks ul li ul{
+	margin-right:0;
+}
+.bottomLinks ul li ul li a {
+	font-size: 14px !important;
+	letter-spacing: 1px;
+	color: #fff !important;
+	font-family:'Calibri';
+	font-weight:bold !important;
+	margin-bottom:0;
+}
+.bottomLinks ul li ul li a:hover{
+	color:#ffc629 !important;
+	text-decoration:none;
+}
+#mainFooterInner .multipleImageLinks{
+	position:absolute;
+	top:0;
+	left:485px;
+	margin-bottom:0;
+}
+#mainFooterInner .multipleImageLinks .genericModuleHeader{
+	font-size:18px;
+	margin-bottom:10px;
+}
+#mainFooterInner .multipleImageLinks .imageLinksList{
+	width:181px;
+}
+#mainFooterInner .multipleImageLinks .imageLinksList li{
+	float:left;
+	margin-right:1px;
+	width:38px;
+	height:29px;
+	margin-bottom:10px;
+}
+#mainFooterInner .multipleImageLinks .imageLinksList .imageLink{
+	text-indent:-9999px;
+}
+#mainFooterInner .newsletterSignup{
+	position:absolute;
+	right:0;
+	top:0;
+}
+.newsletterSignup {
+	background:url(/media/kas/images/new2014/EmailSaying.png) no-repeat 0 0;
+	width:300px;
+	display:block;
+	padding:95px 0 0;
+	margin-bottom:10px;
+}
+.newsletterSignup label {
+	display:none;
+}
+#newsletterSignupFtr{
+	background-color: #fff;
+	height: 24px;
+}
+.newsletterSignup input {
+	clear: left;
+	float:left;
+	height:24px;
+	padding: 6px 0 0 5px;
+	background: #fff;
+	border:none;
+	font-size:12px;
+	color:#444;
+}
+.newsletterSignup button {
+	background:url(/media/kas/images/new2014/EmailEnterBtn.png) no-repeat 0 0;
+	padding:0;
+	width:49px;
+	height:30px;
+	text-indent:-9999px;
+	cursor:pointer;
+	border:none;
+}
+#mainFooter .newsletterSignup a{
+	width: 245px;
+	font-size: 11px;
+	text-transform: none !important;
+	font-weight: normal;
+	display: block;
+}
+/*********** Kansas City CopyRight ***********/
+#footerLogo{
+	display:none;
+}
+#footerLinks{
+	display:none;
+}
+#footerCopy{
+	text-align: center;
+	font-size: 11px;
+	letter-spacing: 1px;
+	color: #b8c4fa;
+	position:absolute;
+	top:150px;
+	left:425px;
+}
+/*************************** END HOME PAGE SECTION************************/
+
+/* **************************(LAYOUT 3 VIEW)*************************** */
+/************************************ BEGIN EVENT INFO SUB-PAGE .layoutG ************************************/
+/* column 5 layout 3 */
+
+.layoutG #mainContentColExtra .moduleWrap .moduleContentOuter .moduleContentInner .largeImageLinks p strong,
+.layoutG #mainContentColExtra .moduleWrap .moduleContentOuter .moduleContentInner .largeImageLinks ul li strong{
+	color: #b8c4fa;
+}
+.layoutG #mainContentColExtra .moduleWrap .moduleContentOuter .moduleContentInner .largeImageLinks p strong{
+	color: #b8c4fa;
+}
+.layoutG #mainContentColExtra .moduleWrap .moduleContentOuter .moduleContentInner .largeImageLinks p strong .acceptPromo{
+	color: #fff;
+}
+/*********** EVENT INFO - CHANGABLE IMAGE **********/
+.layoutG #mainContentColExtra .largeEventMain,
+.layoutHome #mainContentColExtraHidden .largeEventMain{
+	margin: 0;
+	width: 646px;
+	height: 402px;
+	background: url('media/kas/images/new2014/EventInfoImgBg.png') no-repeat;
+	border: 7px solid rgba(255, 198, 41, .7);
+}
+/*********** EVENT INFO - CHANGABLE HEADER & PARAGRAGH UNDER IMAGE**********/
+.layoutG #mainContentColExtra .lrgEventMainTitle,
+.layoutHome #mainContentColExtraHidden .lrgEventMainTitle{
+	font-family: Impact;
+	font-size: 28px;
+	width: 579px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	color: #ffc629;
+	margin: 15px 0 0 0;
+	font-weight:normal;
+}
+.layoutG #mainContentColExtra .lrgEventMainDesc,
+.layoutHome #mainContentColExtraHidden .lrgEventMainDesc{
+	/*margin: 5px 0 100px 0;*/
+	font-family: arial;
+	font-size: 15px;
+	width: 580px;
+	line-height: 16px;
+	color: #b8c4fa;
+}
+
+/*********** ALREADY HAVE TICKETS SECTION **********/
+#eventPage{
+}
+#eventPage .hdrBar{
+	margin: 0 0 40px;
+	background: url('/media/kas/images/new2014/AlreadyHaveTickets.png') no-repeat;
+	height: 55px;
+	text-indent: -9999px;
+}
+
+/********** THR FRI SAT SUN TABBED CIRCLE BTN SECTION ***********/
+#eventPage .genericTabs{
+	height: 65px;
+	margin: 0 0 15px;
+}
+#eventPage .calendarContentMain{
+	background-color: transparent;
+}
+ 
+#eventPage .genericTabs li{
+	float: left;
+	width: 46px;
+	height: 46px;
+	margin: 0 5px 0 0;
+	background-color: transparent;
+}
+#eventPage .genericTabs li .tabIcon{
+	display:none;
+}
+#eventPage .genericTabs li a{
+	padding:0;
+	height: 45px;
+	width: 45px;
+}
+#eventPage .genericTabs li{
+	padding-top:20px;
+	height:46px;
+}
+#eventPage .genericTabs .activeTab{
+	background: url('/media/kas/images/new2014/HoverArrow.png') no-repeat 3px 0;
+}
+#eventPage .genericTabs #scheduleTab0 a{
+	background: url('/media/kas/images/new2014/ThursRegBtn.png') no-repeat;
+	text-indent:-9999px;
+}
+#eventPage .genericTabs #scheduleTab0.activeTab a,
+#eventPage .genericTabs #scheduleTab0:hover a{
+	background: url('/media/kas/images/new2014/ThursHoverBtn.png') no-repeat;
+}
+#eventPage .genericTabs #scheduleTab1 a{
+	background: url('/media/kas/images/new2014/FriRegBtn.png') no-repeat;
+	text-indent:-9999px;
+}
+#eventPage .genericTabs #scheduleTab1.activeTab a,
+#eventPage .genericTabs #scheduleTab1:hover a{
+	background: url('/media/kas/images/new2014/FriHoverBtn.png') no-repeat;
+}
+#eventPage .genericTabs #scheduleTab2 a{
+	background: url('/media/kas/images/new2014/SatRegBtn.png') no-repeat;
+	text-indent:-9999px;
+}
+#eventPage .genericTabs #scheduleTab2.activeTab a,
+#eventPage .genericTabs #scheduleTab2:hover a{
+	background: url('/media/kas/images/new2014/SatHoverBtn.png') no-repeat;
+}
+#eventPage .genericTabs #scheduleTab3 a{
+	background: url('/media/kas/images/new2014/SunRegBtn.png') no-repeat;
+	text-indent:-9999px;
+}
+#eventPage .genericTabs #scheduleTab3.activeTab a,
+#eventPage .genericTabs #scheduleTab3:hover a{
+	background: url('/media/kas/images/new2014/SunHoverBtn.png') no-repeat;
+}
+
+.calendarContentDuring .calendarContentMain {
+	padding:0 30px;
+	clear:left;
+	min-height:300px;
+	height:auto !important;
+}
+/*********** ACCORDION ***********/
+.calendarContentMain{
+	margin: 0 0 25px 0;
+}
+.calendarContentMain ul{
+	clear: left;
+	margin: 0 0 0 30px;
+}
+.calendarContentMain ul li h5{
+	margin: 25px 0 5px 0;
+	color: #ffc629;
+}
+/* Date of Event */
+#eventPage .calendarContentMain .calDate{
+	margin: 30px 0 0 0;
+	/*font-family: sans-serif;*/
+	font-size: 24px;
+	color: #ffc629;
+}
+/* Description in Accordion Drop-Down */
+.calendarContentMain /*.calDesc*/{
+	font-family:'Calibri';
+	font-size: 14px;
+	font-weight: none;
+	color: #b8c4fa;
+}
+#eventPage .scheduleAccordion{
+}
+.scheduleAccordionListItem .scheduleAccordion .titleText{
+	margin: 0 25px 0 0;
+	font-size: 18px;
+	/*font-family: sans-serif;*/
+	color: #fff;
+	font-weight:normal;
+}
+.scheduleAccordionListItem .scheduleAccordion .titleTime{
+	background: url('/media/kas/images/new2014/VerticleRedLineSpacer.png') no-repeat;
+	padding: 0 0 0 25px;
+	font-size: 18px;
+	font-family: sans-serif;
+	color: #ffc629;
+}
+.scheduleAccordion .Collapse{
+	margin: 5px 0 0 25px;
+}
+
+.scheduleAccordion .Collapse .description{
+	font-size: 13px;
+	line-height: 14px;
+	letter-spacing: 1px;
+	color: #b8c4fa;
+}
+
+/*********** FAR RIGHT COLUMN Calendar Card Section ***********/
+/* Far Right Column 300px  */
+.layoutG #mainContentColWrap #mainTripleColWrap .eventDateTime,
+.layoutHome #mainContentColWrapHidden #mainTripleColWrapHidden .eventDateTime{
+	background: url('/media/kas/images/new2014/CalendarCardBg300.png') #5c5c5c no-repeat;
+	width: 300px;
+	padding-bottom:20px;
+}
+.layoutG #mainContentColWrap #mainTripleColWrap .eventDayOfWeek,
+.layoutHome #mainContentColWrapHidden #mainTripleColWrapHidden .eventDayOfWeek{
+	text-align: center;
+	padding: 25px 0 15px;
+	font-family: Impact;
+	font-size: 36px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	color: #ffc629;
+}
+.layoutG #mainContentColWrap #mainTripleColWrap .eventMonthDay,
+.layoutHome #mainContentColWrapHidden #mainTripleColWrapHidden .eventMonthDay{
+	background: url('/media/kas/images/new2014/CalendarCardDateBg.png') no-repeat;
+	width: 139px;
+	height: 118px;
+	margin: 0 auto;
+	padding-top:20px;
+}
+.layoutG #mainContentColWrap #mainTripleColWrap .eventMonth,
+.layoutHome #mainContentColWrapHidden #mainTripleColWrapHidden .eventMonth{
+	text-align: center;
+	font-family: Impact;
+	font-size: 18px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	color: #1f1204;
+	clear: left;
+}
+.layoutG #mainContentColWrap #mainTripleColWrap .eventDay,
+.layoutHome #mainContentColWrapHidden #mainTripleColWrapHidden .eventDay{
+	text-align: center;
+	font-family: Impact;
+	font-size: 72px;
+	letter-spacing: 2px;
+	color: #1f1204;
+	clear: left;
+}
+.layoutG #mainContentColWrap #mainTripleColWrap .eventTime,
+.layoutHome #mainContentColWrapHidden #mainTripleColWrapHidden .eventTime{
+	background: url('/media/kas/images/new2014/GreenFlag.png') no-repeat;
+	margin: 15px auto 0;
+	padding: 20px 0 9px; 	
+	height: 20px;
+	width: 161px;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: Impact, sans-serif;
+	font-size: 22px;
+	letter-spacing: 1px;
+	font-weight: normal;
+	color: #fff;
+}
+.layoutG #mainContentColWrap #mainTripleColWrap .eventTag,
+.layoutHome #mainContentColWrapHidden #mainTripleColWrapHidden .eventTag{
+	width: 300px;
+	font-size: 18px;
+	font-weight:normal;
+	text-align: center;
+	color: #ffc629;
+	font-family:Impact;
+	letter-spacing:2px;
+}
+.layoutG #mainContentColWrap #mainTripleColWrap .lrgEventButtonBuy,
+.layoutHome #mainContentColWrapHidden #mainTripleColWrapHidden .lrgEventButtonBuy{
+	background: url('/media/kas/images/new2014/BuyTicketNowBtn300.png') #dd0a2d no-repeat;
+	text-indent: -9999px;
+	margin: 0;
+	width: 300px;
+	height: 42px;
+	display:block;
+}
+.layoutG #mainContentColWrap #mainTripleColWrap .lrgEventButtonTravel,
+.layoutHome #mainContentColWrapHidden #mainTripleColWrapHidden .lrgEventButtonTravel{
+	background: url('/media/kas/images/new2014/TravelPackagesBtn300.png') #dd586e no-repeat;
+	text-indent: -9999px;
+	margin: 5px 0 0 0;
+	width: 300px;
+	height: 42px;
+	display:block;
+}
+
+.layoutG #mainContentColWrap #mainTripleColWrap .eventAddToCal,
+.layoutHome #mainContentColWrapHidden #mainTripleColWrapHidden .eventAddToCal{
+	background: url('/media/kas/images/new2014/AddToCalendarBtn300.png') #ffc629 no-repeat;
+	text-indent: -9999px;
+	margin: 5px 0 10px 0;
+	display:block;
+	width: 300px;
+	height: 42px;
+}
+
+#eventMobileAppLinks .genericModuleHeader{
+	text-transform:none;
+	line-height:18px
+}
+#eventMobileAppLinks .genericModuleHeaderLine2{
+	font-size:14px;
+	font-family:'Calibri';
+}
+.multipleImageLinks .noHeaderMIL{
+	display:none;
+}
+
+#eventMobileAppLinks .moduleContentOuter .moduleContentInner .imageLinksList .imageLink .imageLinkIcon{
+	border: none;
+	clear:none;
+	float: left;
+	margin: 0 12px 25px 0;
+}
+.layoutG #mainContentColExtra .multipleImageLinks .moduleContentOuter .moduleContentInner 
+.imageLinksList .imageLink .imageLinkText{
+	display: none;
+}
+#eventMobileAppLinks .moduleContentOuter .moduleContentInner .imageLinksList .imageLink .imageLinkText{
+	display:none !important;
+}
+/*************** Right Column Icons Under Calendar Card Section *****************/
+.imageLinksList .imageLinkIcon{
+	clear: left;
+	float: left;
+	border: none;
+}
+.imageLinksList .imageLinkText{
+	float: left;
+	font-size: 12px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-weight: 900;
+	color: #fff;
+	line-height:80px;
+}
+/******************* BEGIN OTHER FAR RIGHT COLUMN CONTENT - SUB-PAGE SECTION ************/
+
+/************* FAR RIGHT COLUMN SECTION ********************/
+/* Main Control Of Right Column*/ 
+.layoutG #mainContentCol1 .mediaRail{
+	padding: 0;
+}
+/* RSS FEED MODULE */
+/* RSS FEED MODULE - TITLE */
+.layoutG #mainContentCol1 .rssModule .rssTitleInfo a{
+	font-family: sans-serif;
+	font-size: 9px;
+	text-transform: uppercase;
+	color: #fff;
+}
+.layoutG #mainContentCol1 .rssModule .rssTitleInfo a:hover{
+	color: #ffc629;
+}
+/* RSS FEED MODULE - DATE */
+.layoutG #mainContentCol1 .rssModule .rssDate{
+	font-family: sans-serif;
+	font-size: 11px;
+	color: #ffc629;
+}
+/* RSS FEED MODULE - ALL NEWS LINK */
+.layoutG #mainContentCol1 .moduleContentInner .moreLink a{
+	font-family: sans-serif;
+	font-size: 9px;
+	text-transform: uppercase;
+	color: #fff;
+	float: left;
+}
+.layoutG #mainContentCol1 .moduleContentInner .moreLink a:hover{
+	color: #ffc629;
+}
+.moduleContentInner .upcomingEventsList li p{
+}
+.upcomingEventsModule ul.upcomingEventsList li{
+	border-bottom: 1px solid #B8C4FA;
+	float:left;
+	margin-bottom: 10px;
+    width: 100%;
+}
+.moduleContentInner .upcomingEventsCalLink{
+}
+/* ARTICLES */ 
+.layoutG #mainContentCol1 .listModule .moduleContentInner ul li{
+	width: 300px;
+	overflow: hidden;
+}
+.layoutG #mainContentCol1 .newsletterSignup{
+	margin: 0 0 25px 0;
+	height: 28px;
+}
+.layoutG #mainContentCol1 .newsletterSignup input{
+	/*margin: 29px 0 0 -21px;*/
+	width: 218px;
+}
+/*.layoutG #mainContentCol1 .newsletterSignup button{
+	margin: -33px 0 25px 199px;
+}*/
+
+/* ******* GUEST GUIDE HEADER *******/
+.layoutAa #innerWrapper #breadCrumbTitleArea .genericPageTitle{
+	margin: 25px 0 0 30px;
+	width: 300px;
+	font-family: Impact;
+	font-size: 44px;
+	text-transform: uppercase;
+	color: #ffc629;
+	position: absolute;
+}
+/* ******* GUEST GUIDE MODULE *******/
+#mainContentColExtra .calendarContentDuring{
+	margin-bottom:10px;
+}
+/* Melena said to turn this off */
+.calendarContentDuring .hdrBar{
+	display: none;
+}
+/* Melena said to turn this off */
+.calendarContentDuring .scheduleBlurb{
+	display: none;
+}
+
+/* ******* GUEST GUIDE TABS ********/
+
+.calendarContentDuring .genericTabs{
+	margin: 0 0 0 10px;
+}
+.calendarContentDuring .genericTabs li{
+	margin: 0 7px 0 0;
+	width: 120px;
+	display:inline-block;
+	background-repeat:no-repeat;
+	background-position: top center;
+	background-size: 50px 35px;
+	padding-top:40px;
+	text-align:center;
+}
+.calendarContentDuring .genericTabsNoIcons li{
+	padding-top:0;
+	background:none;
+}
+.calendarContentDuring .genericTabs a{
+	width: 120px;
+	height: 50px;
+	display: block;
+	background-color:#404F77;
+}
+.calendarContentDuring .genericTabs li:hover a{
+	background-color: #1d3477;
+}
+.calendarContentDuring .genericTabs .activeTab a{
+	background-color: #233978;
+}
+.calendarContentDuring .genericTabs span{
+	float: left;
+	padding: 5px 0 0 0;
+	width: 120px;
+	font-size: 15px;
+	line-height:13px;
+	letter-spacing: 1px;
+	color: #fff;
+}
+.calendarContentDuring .genericTabs .activeTab span{
+	color: #ffc629;
+}
+.layoutG #mainContentColExtra .calendarContentDuring .hdrBar{
+}
+/* ******* Guest Guide Content Section  *******/
+ .calendarContentDuring .calendarContentMain{
+	margin: -3px 0 0 0;
+	padding: 0 10px 10px;
+	width: 640px;
+	float: left;
+	background-color: #233978;
+}
+.layoutI .calendarContentDuring .calendarContentMain{
+	width:950px;
+}
+#eventPage .calendarContentDuring .calendarContentMain ul{
+	margin: 5px 0 0 16px;
+	overflow: hidden;
+}
+/* ******* Headers In Content Area  *******/
+.calendarContentDuring .calendarContentMain h1 span{
+	margin: -100px 0 0 0;
+	text-transform: uppercase;
+}
+.calendarContentDuring .calendarContentMain h1{
+	margin: -1px 0 5px 0px;
+	font-family: sans-serif;
+	font-size: 15px;
+	letter-spacing: 1px;
+	color: #ffc629;
+	text-transform: uppercase;
+}
+
+.calendarContentDuring .calendarContentMain p a{
+	margin: 5px 0 5px 0;
+	font-family: arial;
+	font-size: 11px;
+	font-weight: 800;
+	text-transform: uppercase;
+	color: #fff;
+}
+.calendarContentDuring .calendarContentMain p a:hover{
+	color: #ffc629;
+}
+/* ******* second row of info  *******/
+.calendarContentDuring .calendarContentMain #tabbedSecCol{
+	clear: left;
+	float: left;
+}
+.calendarContentDuring .calendarContentMain #tabbedSecCol p{
+	margin: 0px 0 15px 10px;
+}
+
+.layoutAa #mainFooter{
+	margin: 0 auto;
+}
+
+/********************** CONTACT US SUB-PAGE layoutF  - LAYOUT 2 VIEW *********************/
+#mainContentColWrap #mainContentColExtra .formContentBody h1{
+	margin: 25px 0 10px 0;
+	font-family: sans-serif;
+	font-size: 15px;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #ffc629;
+}
+#mainContentColWrap #mainContentColExtra .formContentBody p{
+	font-family: arial;
+	font-size: 13px;
+	color: #b8c4fa;
+}
+#mainContentColWrap #mainContentColExtra .formContentBody strong{
+	font-size: 14px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	color: #ffc629;
+}
+
+/* EVENT CALENDAR SUBPAGE */
+
+.layoutG #mainContentColExtra #calendarContent .calendarContentMonth .calDesc{
+	font-size: 13px;
+	color: #b8c4fa;
+	width: 570px;
+}
+.layoutG #mainContentColExtra #calendarContent .calendarContentMonth .calDate{
+	color: #ffc629;
+	text-transform: uppercase;
+}
+
+/* **************************(LAYOUT 5 - VIEW .layoutI)***************************/
+/* TURNED OFF Accordion FRM EVENT INFO PAGE */
+.layoutI #mainContentColExtra .largeImageLinks{
+	font-size: 13px;
+	color: #b8c4fa;
+}
+.layoutI #mainContentColExtra .LargeImageLinks{
+	font-size: 13px;
+	color: #b8c4fa;
+}
+.layoutI #mainContentColExtra .wizardWrite{
+	font-size: 13px;
+	color: #b8c4fa;
+}
+.layoutI #mainContentColExtra .wizardControls .imgRadio{
+	margin: 0;
+}
+
+.layoutI .multipleOptIn{
+	margin: 0 0 0 30px;
+}
+.layoutI .multipleOptIn label:first-child{
+	margin: 0;
+	font-size: 20px;
+	text-align: left;
+	color: #f3cc14;
+}
+
+/* **************************(LAYOUT 9 - VIEW .layoutK)***************************/ 
+.layoutK #mainContentColExtra .largeImageLinks{
+	font-size: 13px;
+	color: #b8c4fa;
+}
+.layoutK #mainContentColExtra .LargeImageLinks{
+	font-size: 13px;
+	color: #b8c4fa;
+}
+.layoutK #mainContentColExtra .wizardWrite{
+	margin: 0 0 5px 30px;
+	font-size: 13px;
+	color: #b8c4fa;
+}
+.layoutK #mainContentColExtra .wizardControls .imgRadio{
+	margin: 0;
+}
+.layoutK #mainContentColExtra .wizardControls .btnSubmit{
+	background: url("/media/kas/images/new2014/EmailEnterBtn.png") no-repeat; 
+	width: 75px;
+	height: 35px;
+	text-indent: -9999px;
+	border: none;
+	cursor: pointer;
+}
+.layoutK .largeImageLinksModule {
+	margin: 10px 0 0 0;
+	clear: left;
+}
+/* **************************(LAYOUT 10 VIEW)*************************** 
+/************************************ BEGIN IMAGE TILE BTN SECTION .layoutL (LAYOUT 10 VIEW)***********************************
+/************************** First Time Visitors, Fan Guide, Carry-In Policy, Maps - Links ***********************************/
+.layoutL #wrapper{
+	background-color: #15234A;
+}
+.layoutL #mainTripleColWrap{
+	margin: 0 0 0 30px;
+	width: 600px;
+}
+
+.layoutL #trackSitesLink{
+	margin: -100px 0 0 3px;
+}
+.genericModuleHeader{
+	margin: 0 0 5px 0;
+	padding: 0;
+}
+.layoutL #mainContentCol4 .moduleWrap h4.genericModuleHeader{
+	margin: 0 0 5px 0;
+	padding: 0;
+}
+
+.layoutL .moduleContentOuter .moduleContentInner ul .imageLink .imageLinkText{
+	margin: 0 0 0 5px;
+}
+.layoutL .moduleContentOuter .moduleContentInner #displaywall{
+	margin: 0;
+}
+
+.layoutL #mainContentCol1{
+	width: 660px;
+	margin: 0 0 10px 0;
+}
+.layoutL #mainContentCol1 .moduleContentOuter .moduleContentInner .largeImageLinks{
+	width: 600px;
+}
+.layoutL #mainContentCol2 .moduleContentOuter,
+.layoutL #mainContentCol3 .moduleContentOuter{
+	margin: 0 0 0 0px;
+}
+.layoutL #mainContentCol2 .moduleContentOuter .moduleContentInner li a,
+.layoutL #mainContentCol3 .moduleContentOuter .moduleContentInner li a{
+	margin: 3px 0 0 0px;
+	padding: 0;
+}
+.layoutL #mainContentCol3 .imgTout{
+	margin: 0;
+	overflow: hidden;
+}
+.layoutL #mainContentCol4{
+	width: 660px;
+}
+.layoutL #mainContentCol4 .moduleContentOuter .moduleContentInner{
+	width: 600px;
+}
+.layoutL #mainContentCol4 .moduleContentOuter .moduleContentInner li a{
+	margin: 0 0 0 30px;
+	width: 300px;
+}
+.layoutL #mainContentCol4 .moduleContentOuter .moduleContentInner li a{
+	margin: 0;
+	width: 300px;
+}
+.layoutL #mainContentCol2 .moduleContentInner,
+.layoutL #mainContentCol3 .moduleContentInner,
+.layoutK #mainContentCol5 .moduleContentInner,
+.layoutK #mainContentCol6 .moduleContentInner{
+	width: 315px;
+	padding:0 5px 0 0;
+}
+.layoutL #mainContentColExtra .moduleWrap h4.genericModuleHeader{
+	margin: 0 0 5px 0;
+}
+.layoutL #mainContentColExtra .listModule .moduleContentInner ul li{
+	width: 300px;
+}
+.layoutL #mainContentColExtra  #displaywall{
+	background-color: #fff;
+	width: 300px;
+	border: solid 1px #fff;
+}
+
+#mainContentColExtra{
+	width: 300px;
+}
+.layoutGa #mainContentColExtra{
+	margin-right:10px;
+}
+/* SUBMIT BTN */
+.
+.layoutK #mainContentCol2 .listModule .moduleContentOuter .moduleContentInner a{
+	font-size: 10px;
+	text-transform: uppercase;
+	line-height: 13px;
+	letter-spacing: 1px;
+	color: #fff;
+}
+
+/****************************************************************************
+				OLD CSS
+****************************************************************************/
+
+/*#breadCrumbTitleArea {
+	background:#fff url(/media/kas/backgrounds/bg_breadcrumb.jpg) no-repeat 0 bottom;
+	width:960px;
+	padding:11px 10px 11px 20px;
+	position:relative; 
+	margin-bottom:10px;
+}
+#breadCrumbTitleArea h1, #breadCrumbTitleArea h2 {
+	margin:0;
+	color:#333333;
+	font-weight:bold;
+	font-size:24px;
+	width:80%;
+}
+#breadCrumbTitleArea .adModule {
+	margin-bottom:0;
+	position:absolute;
+	top:10px;
+	right:10px;
+}
+#breadCrumbTitleArea .adModule p {
+	color:#333333;
+	font-weight:bold;
+	float:left;
+	padding:12px 10px 0 0;
+	margin:0;
+	letter-spacing:-0.7px;
+}*/
+
+.multipleOptIn{
+	margin: 0 auto;
+	position:relative;
+	margin-bottom:10px;
+}
+
+.layoutK .multipleOptIn{
+	position:relative;
+}	
+.newsletterInput{
+	bottom: 2px;
+	width: 230px;
+	left: 20px;
+	top: 130px;
+	height: 17px;
+	
+}
+.layoutI .newsletterInput{
+	bottom: 2px;
+	width: 190px;
+	left: 20px;
+	top: 130px;
+	height: 17px;
+	margin: 10px 0 0 0;
+}
+.multipleOptIn label{
+	display:block;
+	padding-top: 10px;
+	color: white;
+}
+.layoutI .multipleOptIn label{
+	display:block;
+	padding-top: 10px;
+	margin: 0 0 0 -12px;
+	color: white;
+}
+
+.multipleOptIn label:first-child{
+	color: #FFC629;
+	font-size: 24px;
+	text-align:center;
+	font-family:Impact;
+	letter-spacing:2px;
+	font-weight:normal;
+}
+
+.multipleOptIn label input {
+	margin-left:10px;
+}
+
+/* -- Misc Layout -- */
+#mainContentColWrap {
+	float:left;
+	padding: 0 0 0 10px;
+}
+.layoutAa #mainContentColWrap,
+.layoutA #mainContentColWrap,
+.layoutC #mainContentColWrap,
+.layoutF #mainContentColWrap,
+.layoutH #mainContentColWrap {
+	width:800px;
+}
+.layoutHome #mainContentColWrap {
+	padding:0;
+}
+.layoutAa #mainContentCol4 {
+	margin-top:0;
+}
+.layoutAa #mainContentCol1, .layoutL #wrapper, .layoutK #wrapper {
+	margin-bottom:0;
+	background-color: #15234A;
+}
+.layoutL #mainContentCol1, .layoutL #mainContentCol2, .layoutL #mainContentCol3 {
+	padding-bottom:0;
+}
+.layoutK #mainContentCol1{
+	position: relative;
+}
+/************* MAIN CONTENT COLUMN 5 */
+.layoutK #mainContentCol5, .layoutK #mainContentCol6{
+	width: 325px;
+	float: left;
+}
+/************* MAIN CONTENT COLUMN 6 */
+.layoutK #mainContentCol5{
+	margin-right: 10px;
+}
+/************* MAIN CONTENT COLUMN EXTRA */
+.layoutK #mainContentColExtra{
+	float: right;
+	width: 300px;
+}
+.layoutK #mainContentColWrap{
+	padding-top:0;
+	background-color: #15234A;
+}
+.layoutK #mainTripleColWrap,
+.layoutL #mainTripleColWrap {
+	margin: 0;
+	width: 660px;
+}
+* html .layoutK #mainTripleColWrap,
+* html .layoutL #mainTripleColWrap {
+	overflow-x:hidden;
+}
+/*.newsletterSignup {
+	background:url(/media/kas/backgrounds/bg_newsletter.jpg) no-repeat 0 0;
+	width:280px;
+	margin-bottom:10px;
+	height:41px;
+	display:block;
+	padding:75px 0 0 20px;
+}
+.newsletterSignup label {
+	display:none;
+}
+.newsletterSignup input {
+	background:none;
+	border:none;
+	color:#7f7f7f;
+	font-size:11px;
+	float:left;
+	width:175px;
+	height:18px;
+	padding-top:6px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-style:italic;
+}
+.newsletterSignup button {
+	border:none;
+	background:url(/media/kas/buttons/btn_newsletter.jpg) no-repeat 0 0;
+	text-indent:-9999px;
+	overflow:hidden;
+	width:75px;
+	height:24px;
+	float:left;
+	cursor:pointer;
+	margin-top:1px;
+	padding:0;
+	margin-left:10px;
+}
+.newsletterSignup button:hover {
+	background-position:0 -23px;
+}*/
+/* -- Countdown Clock -- */
+.largeEventMain .countdownClock {
+	background:url(/media/kas/backgrounds/bg_lrg_clock.gif) no-repeat 0 0;
+	width:231px;
+	height:64px;
+	position:absolute;
+	bottom:30px;
+	left:10px;
+	padding:0;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:18px;
+	line-height:38px;
+}
+.timeLabels {
+	display:none;
+}
+.countdownClock td {
+	text-align:right;
+}
+.initialNote {
+	font-size:9px;
+}
+.largeEventMain .countdownClock td.countdownDay {
+	width:36px;
+	padding:5px 11px 2px 5px;
+}
+.largeEventMain .countdownClock td.countdownHour {
+	padding:5px 8px 2px 25px;
+	width:23px;
+}
+.largeEventMain .countdownClock td.countdownMin {
+	padding:5px 12px 2px 25px;
+	width:15px;
+} 
+.largeEventMain .countdownClock td.countdownSec {
+	padding:5px 12px 2px 25px;
+	width:15px;
+}
+.smallEventModuleWithTime .moduleContentInner {
+	padding-bottom:75px;
+	position:relative;
+}
+.smallEventModule .countdownClock {
+	margin-bottom:10px;
+	background:url(/media/kas/backgrounds/bg_sm_clock.gif) no-repeat 0 0;
+	width:191px;
+	height:37px;
+	padding:10px 0 0 5px;
+	position:absolute;
+	bottom:0;
+	left:10px;
+}
+.smallEventModule .countdownDay, 
+.smallEventModule .countdownHour, 
+.smallEventModule .countdownMin, 
+.smallEventModule .countdownSec {
+	font-size:14px;
+	font-weight:normal;
+	width:18px;
+	padding:0 7px 5px;
+	line-height:23px;
+}
+.smallEventModule .countdownDay {
+	width:25px;
+	padding:0 15px 5px 7px;
+}
+.smallEventModule .countdownHour {
+	width:20px;
+	padding:0 17px 5px 12px;
+}
+.smallEventModule .countdownSec {
+	padding:0 0 5px 22px;
+}
+.countdownClock {
+	color:#fff;
+	font-size:10px;
+}
+.smallEventModuleWithTime .moduleContentInner {
+	position:relative;
+	padding-bottom:65px !important;
+}
+.smallEventModuleWithTime .countdownClock {
+	position:absolute;
+	bottom:0;
+	left:12px;
+}
+/* -- News List -- */
+.newsListModule ul {
+	list-style:none;
+	margin:0;
+	padding:0;
+	float:left;
+}
+.newsListModule .paginatedArticleList {
+	margin-left:3px;
+}
+.newsListModule ul li p, .newsListModule .paginatedArticleList p {
+	margin-bottom:0;
+}
+.newsListModule ul li {
+	border-bottom:1px solid /*#adadad*/#B8C4FA;
+	padding:4px 0;
+	float:left;
+	width:460px;
+}
+.newsInfo {
+	padding:0;
+	width:660px;
+}
+#mainContentColExtra .newsListModule .moduleContentInner {
+	padding:0;
+}
+.newsListModule .paginatedArticleList li {
+	padding:4px 0;
+}
+.newsListModule ul li .newsListArticleDate {
+	float:left;
+	width:50px;
+	font-size:10px;
+}
+.newsListModule .moreLink, .rssModule .moreLink {
+	float:left;
+	margin:0;
+	padding-top:10px;
+	background:none;
+}
+.newsListModule .moreLink a {
+	text-transform:uppercase;
+	font-size:10px;
+	color: #fff;
+}
+.rssModule .moreLink a {
+	text-transform:uppercase;
+	font-size:10px;
+	color: #fff;
+}
+.newsListModule .moreLink a:hover,
+.rssModule .moreLink a:hover {
+	color:#AD5B01;
+}
+.newsListModule .moreLink {
+}
+.rssModule .moreLink {
+}
+
+/* -- News Landing -- */
+.featuredStory {
+	position:relative;
+}
+.featuredStoryInner {
+	position:relative;
+}
+.featuredStoryInfo {
+	display:block;
+	font-size: 24px;
+	text-transform: none;
+	letter-spacing: 1px;
+}
+.featuredStory .sponsor {
+	position:absolute;
+	top:3px;
+	right:6px;
+}
+.featuredStory .resultType {
+	padding:0;
+	text-transform:uppercase;
+	font-family: impact;
+    font-size: 24px;
+    letter-spacing: 2px;
+    color: #FFC629;
+}
+.featuredStoryDetails{
+	float:left;
+}
+.featuredStory .previewImg {
+	float:left;
+	margin:0 10px 5px 0;
+}
+
+.featuredStoryDetails h3,
+.featuredStoryDetails h3 a,
+.featuredStoryDetails .featMeta {
+	font-size:14px;
+	font-weight: 600;
+	font-family: sans-serif;
+}
+.featMeta .summary {
+	font-size:12px;
+	font-weight:normal;
+}
+.featuredStory p{
+	float:left;
+	width:410px;
+}
+/* -- Photo/Video Landing -- */
+#photoLandDropdowns, #videoLandDropdowns {
+	padding:0;
+}
+.videoLandBox {
+	padding:5px;
+	float:left;
+	width:402px;
+	height:337px;
+}
+#videoLandBoxInfo {
+	padding:35px 10px 10px 0;
+	position:relative;
+	float:left;
+	width:208px;
+}
+#videoLandBoxInfo .shareBarSocial {
+	padding-top:10px;
+	clear:both;
+}
+#videoLandBoxInfo h4 {
+	background:none !important;
+	margin-bottom:5px;
+	font-size:12px;
+	margin:0 0 5px;
+	padding:0;
+	color:#333333;
+}
+#photoLandBox {
+	padding:0;
+	width:650px;
+	height:435px;
+}
+#photo {
+	background:url(/media/kas/backgrounds/module_660_btm.jpg) no-repeat 0 bottom;
+	border-top:none;
+	margin-bottom:10px;
+	padding-bottom:10px;
+}
+#photoLandDropdowns {
+	background:url(/media/kas/backgrounds/module_660_mid.jpg) repeat-y 0 0;
+	width:658px;
+	padding:0;
+}
+#photoLandDropdowns h4.browseHeader {
+	background:url(/media/kas/backgrounds/module_660_comb.jpg) no-repeat 0 0;
+	padding:10px 15px;
+	font-weight:bold;
+	color:#fff;
+	font-size:14px;
+	margin-bottom:5px;
+	display:block;
+}
+#photoLandDropdowns .genericDropDown .dropTrigger ul, #videoLandDropdowns .genericDropDown .dropTrigger ul {
+	margin:0;
+}
+#photoLandDropdowns .genericDropDown .dropTrigger a, #videoLandDropdowns .genericDropDown .dropTrigger a {
+	background:#317a96 url(/media/kas/backgrounds/drop_arrow.jpg) no-repeat right 0;
+}
+#photoLandDropdowns .genericDropDown .dropTrigger ul li a, #videoLandDropdowns .genericDropDown .dropTrigger ul li a {
+	background:#5cafce;
+}
+#photoLandDropdowns .genericDropDown .dropTrigger ul li a:hover, #videoLandDropdowns .genericDropDown .dropTrigger ul li a:hover {
+	background:#ac6c25;
+}
+#photoLandDropdowns ul, #videoLandDropdowns ul {
+	list-style:none;
+	margin:0 0 0 10px;
+	padding:0;
+	z-index:20;
+}
+#videoLandDropdowns ul {
+	margin:0 5px 0 0;
+}
+.layoutG #mainContentColExtra .photoLanding .moduleContentInner,
+.layoutG #mainContentColExtra .videoLanding .moduleContentInner {
+	padding:5px 0 5px 9px;
+}
+.layoutG #mainContentColExtra .videoLanding .moduleContentInner .articlePagination {
+	margin-right:20px;
+}
+#mediaLandThumbs {
+	padding:8px 0 0;
+}
+.layoutG #mainContentColExtra #photo .moduleWrap {
+	clear:left;
+	background:url(/media/kas/backgrounds/module_660_mid.jpg) repeat-y 0 0;
+	padding:0 5px 0;
+	margin-bottom:0;
+}
+.layoutG #mainContentColExtra #photo .moduleWrap h4 {
+	color:#2c2300;
+	border:none;
+	padding-left:10px;
+}
+.layoutG #mainContentColExtra #photo .moduleContentInner {
+	padding:0;
+}
+.layoutG #mainContentColExtra #photo .moduleContentOuter {
+	background:none;
+	border:none;
+	width:650px;
+}
+.mediaThumbsRow {
+	list-style:none;
+	margin:0;
+	padding:0 0 10px 0;
+}
+.mediaThumbsRow li {
+	float:left;
+	padding:0 5px 15px 4px;
+	width:152px;
+	height:165px;
+	overflow:hidden;
+}
+.mediaThumbsRow li img {
+	margin-bottom:10px;
+}
+.mediaThumbsRow li h5 {
+	font-size:12px;
+	font-weight:bold;
+}
+.mediaThumbsRow li span {
+	color:#686868;
+	font-size:11px;
+	font-weight:normal;
+}
+/* generic drop down styles */
+.newsListModule .newsInfo ul.genericDropDown {
+	border-bottom:0;
+	padding-bottom:0;
+	z-index:9999;
+	width: 280px;
+}
+.newsListModule .newsInfo ul.genericDropDown li {
+	min-height:1%;
+	_height:1%;
+	padding-bottom:0;
+	color:inherit;
+}
+.genericDropDown {
+	float:left;
+	min-height:30px;
+}
+.newsPulldown, .newsPages {
+	display:none;
+}
+.genericDropDown .dropTrigger {
+	position:relative;
+	min-height:30px;
+	border: none;
+}
+.genericDropDown .dropTrigger a {
+	padding:4px 30px 4px 0px;
+	line-height:25px;
+	font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color:#fff;
+    background: url('/media/kas/images/dropdownArrow.png') no-repeat right 3px;
+	width:280px;
+}
+.genericDropDown .dropTrigger a:hover {
+	text-decoration:none;
+	color: #ffc629;
+}
+.genericDropDown .dropTrigger ul li a {
+	border:0;
+	display:block;
+	background: #15234A;
+	padding:0 8px;
+	outline:none;
+	border-bottom: 1px solid #B8C4Fa;
+	height:15px;
+	line-height:15px;
+	width:210px !important;
+}
+.genericDropDown .dropTrigger ul li a:hover {
+	background: #2c4aa0;
+	color: #ffc629;
+}
+.genericDropDown .dropTrigger ul {
+	width:160px;
+	border:1px solid #b8c4fa;
+	_border:none;
+	display:none;
+	position:absolute;
+	top:25px;
+	min-height:20px;
+	_height:145px;
+	max-height:150px;
+	padding:0;
+	overflow:auto;
+	left:0;
+	background-color: #15234A;
+	width:275px;
+}
+.genericDropDown .dropTrigger ul li {
+	padding:0;
+	width:100%;
+	_width:143px;
+	border: none;
+}
+/* -- Feel the Experience -- */
+#feelTheExperienceWrap {
+	background:url(/media/kas/backgrounds/bg_timeline_mid.jpg) repeat-y left top;
+	width:970px;
+}
+#feelTheExperienceWrapOuter {
+	background:url(/media/kas/backgrounds/bg_timeline_top.jpg) no-repeat scroll 0 0;
+}
+#feelTheExperienceWrapInner {
+	background:url(/media/kas/backgrounds/bg_timeline_ftr.jpg) no-repeat scroll left bottom;
+	padding-bottom:120px;
+	position:relative;
+	width:970px;
+	margin-bottom:10px;
+}
+* html #feelTheExperienceWrapInner {
+	padding-bottom:85px;
+}
+*+ html #feelTheExperienceWrapInner {
+	padding-bottom:85px;
+}
+#experienceContent {
+	width:970px;
+	min-height:359px;
+	height:auto !important;
+	height:359px;
+	padding:10px 0 0 0;
+	position:relative;
+}
+#feelTheExperienceWrap .genericTabs {
+	list-style:none;
+	margin:0;
+	padding:4px 5px 0;
+}
+#feelTheExperienceWrap .genericTabs li {
+	float:left;
+	margin-right:1px;
+} 
+#feelTheExperienceWrap .genericTabs li a {
+	background:#3589a8 url(/media/kas/buttons/bg_tab.jpg) repeat-x right top;
+	float:left;
+	color:#fff;
+	padding:7px 10px 0;
+	height:23px;
+	font-size:14px;
+	text-transform:uppercase;
+	text-align:center;
+}
+#feelTheExperienceWrap .genericTabs li.activeTab a {
+	background:#fff;
+	color:#2c2300;
+}
+#feelTheExperienceWrap .genericTabs li a:hover, 
+#feelTheExperienceWrap .genericTabs li.activeTab a:hover {
+	background:#8a4801 url(/media/kas/buttons/bg_tab_hover.jpg) repeat-x right top;
+	text-decoration:none;
+}
+#experienceScoller {
+	padding:10px 0 0 0;
+	height:178px;
+	clear:both;
+}
+#experienceScoller .scrollButton {
+	float:left;
+	height:125px;
+	width:31px;
+	text-indent:-9999px;
+	overflow:hidden;
+}
+#experienceScoller  #scrollLeft {
+	background:url(/media/kas/buttons/experience_scroll_left.jpg) no-repeat left 20px;
+	margin-left:24px;
+	visibility:hidden;
+}
+* html #experienceScoller  #scrollLeft {
+	margin-left:12px;
+}
+#experienceScoller  #scrollRight {
+	background:url(/media/kas/buttons/experience_scroll_right.jpg) no-repeat right 20px;
+}
+#experienceScollHide {
+	position:relative;
+	height:178px;
+	width:850px;
+	overflow:hidden;
+	float:left;
+}
+#experienceScollWrap {
+	position:absolute;
+	top:0;
+	left:0;
+}
+#experienceScollWrap .scrollItem {
+	float:left;
+	width:160px;
+	height:165px;
+	padding:5px 5px 8px;
+	margin:0;
+}
+
+#experienceScollWrap .scrollItem a {
+	font-size:11px;
+	font-weight:bold;
+}
+#experienceScollWrap .scrollItem a:hover {
+	text-decoration:underline;
+	color:#666666;
+}
+#experienceScollWrap .activeScrollItem {
+	background:#666666 url(/media/kas/backgrounds/bg_active_scrollItem.gif) no-repeat 0 bottom;
+	color:#fff;
+}
+#experienceScollWrap .activeScrollItem a { 
+	color:#fff !important;
+}
+#experienceScollWrap .activeScrollItem a:hover {
+	color:#fff !important;
+	text-decoration:none;
+}
+#experienceTextContent {
+	margin:0 auto;
+	padding:20px;
+	width:731px;
+	border:1px solid #dfdfdf;
+	background:#fff;
+	position:relative;
+}
+#experienceTextBoxHeader {
+	float:left;
+	width:100%;
+	min-height:20px;
+	height:auto !important;
+	height:20px;
+}
+#experienceTextContent #experienceTextBoxHeader h4 {
+	width:70%;
+	padding-bottom:5px;
+}
+#experienceTextContent #experienceTextBoxHeader .shareBarSocial {
+	position:absolute;
+	top:10px;
+	right:10px;
+}
+#expLoading {
+	height:200px;
+	text-indent:-9999px;
+	background:url(/media/kas/backgrounds/big_loader.gif) no-repeat center 20px;
+}
+#experiencePhotoContent {
+	margin-left:105px;
+}
+* html #experiencePhotoContent {
+	margin-left:52px;
+}
+#experienceVideoContent {
+	background:url(/media/kas/backgrounds/bg_timeline_sub.png) no-repeat 0 bottom;
+	width:751px;
+	height:339px;
+	margin-left:105px;
+	padding:10px 0 0 5px;
+}
+* html #experienceVideoContent {
+	background:none;
+}
+#experienceVideoBox {
+	background:url(/media/kas/backgrounds/timeline_video_shadow.png) no-repeat 0 0;
+	width:393px;
+	height:325px;
+	display:block;
+	overflow:hidden;
+	margin:0;
+	padding:7px 0 0 7px;
+	float:left;
+}
+* html #experienceVideoBox {
+	background:#fff;
+	border:1px solid #dfdfdf;
+	margin:0;
+}
+#experienceVideoInfo {
+	border:1px solid #dfdfdf;
+	background:#fff;
+	margin:2px 0 0 5px;
+	width:308px;
+	padding:20px 15px;
+	color:#333333;
+	float:left;
+	position:relative;
+}
+* html #experienceVideoInfo {
+	margin-top:0;
+}
+#experienceVideoInfo .shareBarSocial {
+	position:absolute;
+	top:10px;
+	right:10px;
+}
+#experienceVideoInfo h4, #experienceVideoTitle, #experienceVideoDesc span {
+	font-weight:bold;
+	font-size:12px;
+}
+#experienceVideoInfo h4 {
+	text-transform:uppercase;
+	margin-bottom:10px;
+}
+#experienceVideoInfo .genericLink:hover {
+	background-position:0 -23px;
+}
+#mainContentColExtra #feelTheExperienceWrapInner .ad728x90 {
+	bottom:9px;
+	left:121px;
+	position:absolute;
+	margin-bottom:0;
+}
+* html #mainContentColExtra #feelTheExperienceWrapInner .ad728x90 {
+	bottom:2px;
+}
+*+ html #mainContentColExtra #feelTheExperienceWrapInner .ad728x90 {
+	bottom:2px;
+}
+#feelTheExperienceWrapInner .ad728x90 p { display:none; }
+/* -- Search Styles -- */
+#searchResults .articlePagination {
+	margin:10px 0 10px;
+}
+#searchResults  .actionLinks {
+	padding-bottom:10px;
+}
+.searchResult {
+	border-bottom:1px solid #B8C4FA;
+	padding:10px 10px 5px;
+	margin:0;
+	width:640px;
+	float:left;
+}
+.searchResultWithImage img {
+	display:block;
+	margin:0 10px 10px 0;
+}
+.genericForm, #searchResults {
+	/* background:#D6D6D6; */
+	padding-bottom:5px;
+}
+#searchResultInfo {
+	padding-top:10px;
+	padding-left:10px;
+}
+#searchResults .actionLinks {
+	padding-left:10px;
+}
+* html #searchResults  .actionLinks {
+	background:#D6D6D6;
+	float:left;
+	width:640px;
+	min-height:15px;
+	height:auto !important;
+	height:15px;
+}
+* html #searchResultInfo {
+	float:left;
+	width:640px;
+	min-height:60px;
+	height:auto !important;
+	height:60px;
+	background:#D6D6D6;
+}
+/* -- Calendar -- */
+#calendarContent {
+	width:660px;
+}
+#calendarHead {
+	padding:10px 10px;
+	margin-bottom:10px;
+}
+#calendarHead p {
+	float:left;
+	font-weight:bold;
+	line-height:18px;
+}
+.calendarContentMonth{
+	float:left;
+}
+#calendarContent h4 {
+	text-transform: uppercase;
+	color: #ffc629;
+	font-family: impact;
+	font-size: 24px;
+	letter-spacing: 1px;
+	padding:0 0 5px;
+	clear:both;
+	font-weight:normal;
+}
+#calendarContent ul {
+	list-style:none;
+	margin:0 0 10px;
+	float:left;
+	border-bottom: 1px solid #B8C4FA;
+}
+#calendarContent li {
+	float:left;
+	margin-bottom:10px;
+}
+
+#calendarContent li ul {
+	margin-bottom:0;
+	background:none;
+	padding:0;
+	border:none;
+}
+#calendarContent li ul li {
+	background:none;
+	padding:0;
+}
+#calendarContent ul li {
+	width:660px;
+}
+.calendarContentDuring ul li.withImage img {
+	margin: 0 0 0 12px;
+}
+.calendarContentDuring ul li.withImage {
+}
+.calendarContentDuring ul li.withImage {
+	width:348px;
+}
+#calendarContent li h5, #calendarContent li h5 a {
+	font-size:12px;
+	color: #fff;
+	width: 570px;
+}
+.layoutG #mainContentColExtra #calendarContent .calDate{
+	margin: 15px 0 5px 0;
+	font-family: sans-serif;
+
+}
+
+#calendarContent .calLinks li {
+	float:left;
+	padding:5px 15px 10px 0;
+	border:none;
+	width:auto;
+}
+.calAddAllEventsToCalendar {
+	background:url(/media/kas/buttons/addToCal_btn.png) bottom right no-repeat;
+	width:190px;
+	height:16px;
+	padding:3px 20px 0 0;
+	margin-top:2px;
+	/*margin-left:5px;*/
+	margin-bottom:3px;
+	display:inline-block;
+}
+.calAddToCalBtn {
+	background:url(/media/kas/buttons/addToCal_btn.png) bottom right no-repeat;
+	width:24px;
+	height:16px;
+	padding:3px 0 0;
+	margin:-3px 0 0;
+	display:inline-block;
+	text-indent:-9999px;
+	float:left;
+}
+.upcomingEventsLinks .calAddToCalBtn{
+	overflow:hidden;
+	float:left;
+	margin:0 0 5px 5px;
+}
+.calAddAllEventsToCalendar:hover,
+.calAddToCalBtn:hover {
+	background-position:top right;
+}
+.eventAddToCal:hover {
+	background-position:top right;
+}
+.layoutHome .newsTabsModule .hdrBar {
+	background:url(/media/kas/backgrounds/module_470_top.jpg) no-repeat center top;
+	position:relative;
+}
+.layoutHome .newsTabsModule .hdrBar h4 {
+	background:url(/media/kas/backgrounds/module_470_hdr.jpg) no-repeat center bottom;
+	color:#fff;
+	font-size:18px;
+	font-weight:normal;
+	padding:8px 15px;
+	text-transform:uppercase;
+}
+.rss {
+	background:url(/media/kas/icons/ico_rss.gif) no-repeat 0 0;
+	text-indent:-9999px;
+	overflow:hidden;
+	display:block;
+	width:36px;
+	height:14px;
+}
+.newsTabsModule .hdrBar .rss {
+	position:absolute;
+	top:10px;
+	right:10px;
+}
+/*.calendarContentDuring,*/
+.newsTabsModule {
+	width:490px;
+	margin-bottom:10px;
+}
+.layoutHome .newsTabsModule {
+	background:url(/media/kas/backgrounds/module_470_mid.jpg) repeat-y center top;
+	width:470px;
+}
+.layoutGa .calendarContentDuring .genericTabs {
+	background:#F1F1F1 url(/media/kas/backgrounds/bg_calTabs.jpg) repeat-x 0 bottom;
+}
+.layoutHome .newsTabsModule .genericTabs {
+	padding:0 0 0 5px;
+	float:left;
+	width:464px;
+}
+.layoutL .calendarContentDuring,
+.layoutK .calendarContentDuring {
+	width:660px;
+}
+.calendarContentMain ul li ul {
+    color: #B8C4FA;
+    list-style: disc outside none;
+	margin-left:10px;
+}
+
+
+.layoutL .calendarContentDuring ul li.withImage,
+.layoutK .calendarContentDuring ul li.withImage,
+.layoutGa .calendarContentDuring ul li.withImage{
+	width:518px;
+}
+
+.newsTabsModule .newsTabsContentMain {
+	padding:0 6px;
+	clear:left;
+	min-height:320px;
+	height:auto !important;
+	height:320px;
+}
+.calendarContentMain ul {
+	list-style:none;
+	margin:0;
+	padding:0 0 10px;
+}
+.newsTabsContentMain ul {
+	padding:0 10px 10px;
+	margin:0;
+	list-style:none;
+}
+.newsTabsModule .genericTabs {
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+.newsTabsModule .genericTabs li {
+	float:left;
+	margin-right:1px;
+}
+.newsTabsModule .genericTabs li a{
+	float:left;
+	color:#fff;
+	padding:9px 10px;
+	font-size:14px;
+	text-transform:uppercase;
+	width:94px;
+	text-align:center;
+}
+.newsTabsModule .genericTabs li.activeTab a,
+.newsTabsModule .genericTabs li.activeTab a:hover {
+	background:#fff;
+	color:#2c2300;
+}
+.newsTabsModule .genericTabs li a:hover {
+	background:#8a4801 url(/media/kas/buttons/bg_tab_hover.jpg) repeat-x right top;
+	text-decoration:none;
+}
+
+.newsTabsContentMain li {
+	position:relative;
+	border-bottom:1px solid #cccccc;
+	padding:25px 5px 5px;
+}
+.newsTabsContentMain h5, .newsTabsContentMain h5 a {
+	font-size:12px;
+	font-weight:bold;
+}
+.newsTabsContentMain .newsDesc {
+	font-size:11px;
+	font-weight:bold;
+	color:#000;
+	margin-bottom:0;
+}
+.newsTabsContentMain .newsDate {
+	font-size:10px;
+	color:#7d7d7d;
+	margin-bottom:0;
+	position:absolute;
+	top:10px;
+	left:5px;
+}
+.newsModuleFtr {
+	background:url(/media/kas/backgrounds/module_470_btm.jpg) no-repeat center bottom;
+	width:458px;
+	height:25px;
+	padding:0 6px 6px;
+	position:relative;
+}
+.newsModuleFtr .rss {
+	position:absolute;
+	top:2px;
+	right:15px;
+}
+.newsModuleFtr ul {
+	list-style:none;
+	margin:0;
+	padding:0 0 0 10px;
+}
+.newsModuleFtr li {
+	float:left;
+	width:33%;
+}
+.newsModuleFtr li a {
+	background:url(/media/kas/icons/ico_hdr_links.gif) no-repeat left center;
+	padding-left:15px;
+	text-transform:uppercase;
+	font-size:10px;
+	color:#43ACD4;
+}
+.newsModuleFtr li a:hover {
+	color:#AD5B01;
+}
+.calendarContentMain p {
+	margin-bottom:5px;
+}
+.calendarContentDuring .calendarContentMain .calDate {
+	color:#7d7d7d;
+}
+.calendarContentDuring .calendarContentMain li h5, .calendarContentDuring .calendarContentMain li h5 a {
+	font-size:14px;
+	color: #ffc629;
+	text-transform: uppercase;
+	font-weight: 600;
+	cursor:pointer;
+}
+.calendarContentDuring .calendarContentMain li h5 a:hover { 
+	text-decoration:underline;
+}
+/* Melenia said to hide this base on the design of comp */
+.calendarContentDuring .calendarContentMain li.withImage img {
+	display: none;
+}
+.calendarContentDuring .calendarContentMain .twoColumns{
+	width:310px;
+	float:left;
+	margin-right:10px;
+}
+/* -- Article Page -- */
+.layoutGa #mainContentColExtra .articleBeautyImage{
+	margin: 0 10px 0 0;
+}
+.moduleSharebar{
+	display: visible;
+}
+#articleDetailContent p span{
+	color:#b8c4fa;
+}
+#articleDetailContent a:hover {
+	text-decoration: none;
+}
+#articleDetailContentInner { 
+	padding-bottom:10px;
+}
+#articleContentWrap{
+	font-size: 13px;
+	line-height: 14px;
+	margin-bottom:10px;
+	color:#B8C4FA;
+}
+.addthis_toolbox{
+	width: 325px;
+	float: left;
+}
+#articleContentWrap .relatedTopics p a{
+	font-family: sans-serif;
+	font-size: 12px;
+	font-weight: 600;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	color: #fff;
+}
+#articleContentWrap p a{
+	font-family: sans-serif;
+	font-size: 12px;
+	font-weight: 600;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	color: #fff;
+}
+#articleContentWrap p a:hover{
+	color: #ffc629;
+}
+#articleDetailContent h1 {
+	width: 660px;
+	padding:0;
+	font-size:28px;
+}
+#articleDetailContent h2 {
+	font-size:14px;
+	font-weight:bold;
+	color: #FFC629;
+	padding-bottom:5px;
+}
+#articleDetailContent .articleByLine {
+	color:#333333;
+	font-size:12px;
+	line-height:normal;
+	margin-bottom:0;
+	padding-bottom:10px;
+}
+.articleBeautyImage {
+	float:left;
+	padding:0 0 10px 0;
+	clear:both;
+}
+#articleDetailContent .articleBeautyImage p {
+	background:#eeeeee;
+	font-size:11px;
+	color:#666666;
+	font-style:italic;
+	width:315px;
+	padding:2px 5px;
+	margin-bottom:0;
+}
+#articleDetailContent .wideBeauty p {
+	width:618px;
+}
+.moduleSharebar {
+	margin:0 0 10px 0;
+	min-height:20px;
+	_height:20px;
+}
+* html #articleContentWrap p {
+	clear:right;
+}
+.moduleSharebar div {
+	float:right;
+	padding-left:5px;
+}
+.shareBarSocial a, .shareBarEmail a, .shareBarPrint a {
+	display:block;
+	width:70px;
+	height:20px;
+	text-indent:-9999px;
+	overflow:hidden;
+}
+.shareBarSocial a {
+	background:url(/media/kas/buttons/btn_share.jpg) no-repeat 0 0;
+}
+.shareBarEmail a {
+	background:url(/media/kas/buttons/btn_email.jpg) no-repeat 0 0;
+}
+.shareBarPrint a {
+	background:url(/media/kas/buttons/btn_print.jpg) no-repeat 0 0;
+}
+#articleDetailContent ul, #articleDetailContent ol {
+	margin:0 0 10px 15px;
+	padding:0;
+	list-style:inside;
+}
+#articleDetailContent ol {
+	list-style-type:decimal;
+}
+.relatedTopics h4 {
+	font-size: 22px;
+	font-weight:normal;
+	color: #ffc629;
+	font-family:Impact;
+	letter-spacing:1px;
+}
+.relatedTopics a {
+	font-size:12px;
+	font-weight:normal;
+}
+/* -- Track Nav and Sharebox -- */
+#shareBox, #trackNav {
+	display:none;
+}
+#shareBox {
+	background:#666666 none repeat scroll 0 0;
+	display:none;
+	padding:2px 4px;
+	position:absolute;
+	width:190px;
+	z-index:99999;
+}
+#trackNav	{
+	width: 251px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	display:none;
+	text-align:left;
+	z-index:50;
+	margin:13px 0 0 17px;
+}
+.trackNavGradient	{
+	padding: 20px;
+	background: #63a1c9 url(/media/kas/trackNav_popup_bg.jpg) repeat-x top;
+}
+#trackNav .trackNavGradient h4	{
+	width: 211px;
+	font-size: 14px;
+	font-weight: bold;
+	color: #061b30;
+	border-bottom: 1px solid #2c4c63;
+	z-index:50;
+	margin:0;
+	padding:0;
+}
+#trackNav .trackNavGradient ul	{
+	width: 211px;
+	margin:0px;
+	padding:0;
+	list-style:none;
+}
+#trackNav .trackNavGradient ul li	{
+	border-bottom: 1px solid #90bbd7;
+	line-height:20px;
+}
+#trackNav .trackNavGradient a	{
+	color:#fff;
+}
+#trackNav .carrot	{
+	background: url(/media/kas/trackNav_popup_carrot.gif) no-repeat;
+	height: 9px;
+	width: 251px;
+	overflow:hidden;
+}
+/* styles for poll module */
+.pollModule .moduleContentInner {
+	padding:10px 14px;
+}
+.pollModule {
+	position:relative;
+}
+.modPollQuestion {
+	font-size:12px;
+	font-weight:normal;
+	margin-bottom:10px;
+}
+.jcorePoll label {
+	clear:both;
+	padding:0 0 8px 0;
+	display:block;
+}
+.jcorePoll label input {
+	margin:0 5px 0 0;
+}
+.jcorePoll button {
+	background:url(/media/kas/buttons/btn_vote.png) no-repeat 0 0;
+	display:block;
+	width:57px;
+	height:19px;
+	border:none;
+	text-indent:-9999px;
+	margin:0 0 10px 0;
+	cursor:pointer;
+}
+* html .jcorePoll button {
+	background:url(/media/kas/buttons/btn_vote.gif) no-repeat 0 0;
+}
+.jcorePoll button:hover {
+	background-position:0 -19px;
+}
+.pollResultRow p {
+	clear:both;
+}
+.pollResultBar {
+	height:16px;
+	float:left;
+	margin-right:3px;
+	background:#5cafce;
+}
+/* generic form styles */
+.genericForm fieldset {
+	border:0;
+}
+
+.genericFormError {
+	padding:10px;
+	background:#fdf8e3;
+	border:1px solid #cfc69a;
+	color:#333;
+	display:none;
+}
+.formRow {
+	width:642px;
+	clear:both;
+	margin-bottom:8px;
+	
+}
+.formRowHalf {
+	width:321px;
+	float:left;
+	clear:none;
+}
+.genericForm label {
+	padding-right:10px;
+	display:block;
+	font-size:11px;
+	line-height:16px;
+}
+.formSubTitle {
+	font-size:14px;
+	margin:20px 0 10px;
+	font-weight:bold;
+}
+label {
+	color: #ffc629;
+	font-family: sans-serif;
+	text-transform: uppercase;
+	width: 100%;
+}
+label:last{
+	margin-bottom: 25px;
+}
+label .reqFld {
+	padding-left:10px;
+	color:#dd0c2d;
+	font-size:10px;
+}
+.genericForm input,
+.genericForm textarea,
+.genericForm select {
+	width:300px;
+	height:16px;
+	padding:1px 0;
+	margin:0 10px 0 0;
+}
+.genericForm select {
+	height:auto;
+}
+.genericForm .formRowCheckbox input,
+.genericForm .formRowRadio input {
+	width:auto;
+	height:auto;
+	float:left;
+	
+}
+.genericForm .formRowCheckbox label,
+.genericForm .formRowRadio label {
+	*line-height:20px;
+}
+.genericForm .formRowRadio {
+	width:470px;
+	padding-left:20px;
+}
+.genericForm .formRowRadio label {
+	margin-bottom:6px;
+}
+.genericForm textarea {
+	height:80px;
+	width:460px;
+	overflow:auto;
+}
+.genericForm button{
+	padding: 6px 16px;
+	background-color: #dd0b2d;
+	border: none;
+	font-family: sans-serif;
+	text-transform: uppercase;
+	color: #fff;
+}
+
+/* -- Pagination -- */
+.newsListModule .articlePagination, .articlePagination {
+	float:right;
+	margin:5px 0;
+	text-transform:capitalize;
+}
+.articlePagination {
+	list-style:none;
+}
+.newsListModule .articlePagination li, .articlePagination li {
+	border-bottom:none;
+}
+.articlePagination li {
+	float:left;
+}
+.newsListModule .articlePagination li, .newsListModule .genericDropDown li {
+	width:auto;
+}
+.newsListModule .paginatedArticleList li {
+	width:auto;
+}
+.newsListModule .articlePagination li a, .articlePagination li a {
+	color:#fff;
+	padding:2px 5px;
+	float:left;
+	font-size:12px;
+	font-weight:bold;
+}
+.newsListModule .articlePagination li a:hover, 
+.articlePagination li a:hover{
+	color: #FFC629;
+} 
+.newsListModule .articlePagination li.currentPagination a, .articlePagination li.currentPagination a, .newsListModule .articlePagination li a:hover, .articlePagination li a:hover {
+	text-decoration:none;
+	
+	color: #FFC629;
+}
+.articlePagination .currentPagination a{
+	font-size: 12px;
+}
+.newsListModule .paginatedArticleList li {
+	width:99%;
+}
+.newsListModule .newsListArticleInfo p {
+	font-size:11px;
+	letter-spacing: 1px;
+}
+.newsListModule .paginatedArticleList li .newsListArticleDate {
+	width:50px;
+	font-size:14px;
+}
+.newsListModule .paginatedArticleList li .newsListArticleTitle a{
+	margin-bottom:0;
+	font-family: sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #fff;
+}
+.newsListModule .paginatedArticleList li .newsListArticleTitle a:hover{
+	color: #ffc629;
+}
+/* -- Modules -- */
+.listModule ul {
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+.listModule ul li {
+	padding:0 0 10px;
+}
+.listModule img {
+	float:left;
+	margin:0 5px 5px 0;
+}
+.openHTMLModule {
+	margin: 0 0 10px 0;
+}
+.openContentModule .moduleContentInner {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight:normal;
+}
+.promoModule img {
+	border:1px solid #969797;
+	margin-right:10px;
+	float:left;
+}
+.promoModule .promoDetails {
+	width:148px;
+	float:left;
+}
+.promoModule .promoDetails p {
+	margin:0;
+}
+#navAdCol .moduleWrap {
+	background:none;
+}
+.mediaRail {
+	width:300px;
+	min-height:354px;
+	height:auto !important;
+	height:354px;
+	margin-bottom:10px;
+}
+.smallImageLinksModule img {
+	margin-bottom:10px;
+}
+#mainContentCol1 .smallImageLinksModule img, 
+#mainContentCol4 .smallImageLinksModule img, 
+.layoutF #mainContentColExtra .smallImageLinksModule img {
+	margin:0 10px 5px 0;
+	float:left;
+}
+
+.largeImageLinksModule img {
+	margin:0 10px 5px 0;
+	float:left;
+}
+.layoutI .largeImageLinksModule img {
+	margin:0 10px 5px 0;
+	float:left;
+}
+.adModule{
+	margin-bottom:10px;
+}
+.openHTMLModule{
+	margin-bottom:10px;
+}
+.adModule p {
+	display:none;
+}
+.borderList {
+	list-style:none;
+	margin:0 0 10px;
+	padding:0;
+}
+.multipleImageTextList {
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+.multipleImageTextList li {
+	float:left;
+	padding-right:10px;
+	text-align:center;
+	width:142px;
+}
+.imgTout{
+	margin: 0 0 10px 0;
+}
+#mainContentColExtra .pollModule .moduleFooterAd {
+	position:absolute;
+	bottom:10px;
+	right:10px;
+	padding-top:15px;
+}
+#mainContentColExtra .pollModule .moduleFooterAd p {
+	color:#929292;
+	font-size:10px;
+	text-transform:capitalize;
+	position:absolute;
+	top:0;
+	left:0;
+}
+.genericModuleHeader {
+	font-family: impact;
+	font-size: 24px;
+	letter-spacing: 2px;
+	text-transform:uppercase;
+	color: #ffc629;
+	font-weight:normal;
+}
+.layoutK  #mainContentCol1 .moduleWrap ul{
+	margin: 0 0 0 10px;
+}
+.layoutK .moduleContentInner #mainContentCol5{
+	margin: 0 0 0 0px;
+}
+.layoutK .moduleContentInner #mainContentCol6{
+	margin: 0 0 0 -10px;
+}
+
+.layoutK .moduleContentInner #displaywall{
+	width: 213px;
+	float: left;
+	margin: 0 0 25px 0;
+	padding-bottom: 10px;
+	background-color: #fff;
+}
+.layoutK .moduleContentInner #displaywall img{
+	border: none;
+}
+.moduleWrap h4.genericModuleHeader a {
+	font-weight:bold;
+	font-size:16px;
+	color:#a39b45;
+}
+.smlEventDate {
+	font-size:16px;
+	font-weight:bold;
+	margin-bottom:0;
+}
+.smlEventDesc {
+	font-weight:normal;
+	font-family:Arial, Helvetica, sans-serif;
+}
+.smlEventLinks {
+	list-style:none;
+	margin:0;
+	padding:0 0 10px;
+	float:left;
+}
+.smlEventLinks li {
+	float:left;
+	margin-right:10px;
+	line-height:12px;
+}
+.smlEventLinks li a {
+	background:url(/media/kas/icons/ico_hdr_links.gif) no-repeat left center;
+	padding-left:15px;
+	text-transform:uppercase;
+	font-size:10px;
+	color:#43ACD4;
+	font-family:Arial, Helvetica, sans-serif;
+}
+.smlEventLinks li a:hover {
+	color:#AD5B01;
+}
+.moduleFooterAd {
+	clear:left;
+}
+#mainContentCol2 .smallEventModule .moduleContentInner,
+#mainContentCol3 .smallEventModule .moduleContentInner {
+	background:none;
+}
+#mainContentCol2 .smallEventModule .moduleContentOuter,
+#mainContentCol3 .smallEventModule .moduleContentOuter {
+	background:none;
+	padding:0;
+}
+.smallEventModule .imgReplace {
+	padding:0 !important;
+}
+.smallEventModule .imgReplace a {
+	background-repeat:no-repeat;
+	background-position:0;
+	text-indent:-9999px;
+	overflow:hidden;
+	width:240px;
+	height:128px;
+	display:block;
+}
+.layoutK .smallEventModule .imgReplace a {
+	width:214px;
+	height:114px;
+}
+.smallEventModule h5,
+.smallEventModule h5 a {
+	font-size:14px;
+	font-weight:bold;
+}
+/* 150 Column */
+.layoutHome #mainContentCol3 .smallImageLinksModule {
+	color:#252525;
+	position:relative;
+	padding-top:90px;
+}
+.layoutHome #mainContentCol3 .smallImageLinksModule h4.genericModuleHeader {
+	font-size:16px;
+	margin:0;
+	padding:0 12px;
+}
+.layoutHome #mainContentCol3 .smallImageLinksModule .moduleContentOuter {
+	padding-bottom:10px;
+}
+.layoutHome #mainContentCol3 .smallImageLinksModule .moduleContentInner {
+	background:url(/media/kas/backgrounds/module_150_mid.jpg) repeat-y center bottom;
+	padding:0 12px 5px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	font-weight:normal;
+}
+.layoutHome #mainContentCol3 .smallImageLinksModule .moduleContentInner img.feat {
+	position:absolute;
+	top:3px;
+	left:5px;
+}
+.layoutHome #mainContentCol3 .smallImageLinksModule .moduleContentInner p {
+	margin-bottom:5px;
+}
+.linkList {
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+.moduleWrap .linkList a {
+	padding: 3px 0 0 0;
+	text-transform:uppercase;
+	font-size:10px;
+	color: #fff;
+}
+.moduleWrap .linkList a:hover {
+	color: #ffc629;
+}
+.layoutHome  #mainContentCol3 .smallImageLinksModule .linkList li a {
+	background:url(/media/kas/icons/ico_yellow_flag.png) no-repeat left 3px;
+	padding-left:15px;
+	color:#fff;
+}
+* html .layoutHome  #mainContentCol3 .smallImageLinksModule .linkList li a {
+	background:url(/media/kas/icons/ico_yellow_flag.gif) no-repeat left 3px;
+}
+.layoutHome  #mainContentCol3 .smallImageLinksModule .linkList li a:hover	{
+	color:#43acd4;
+}
+.layoutHome #mainContentCol1 .fbWall .moduleContentOuter{
+	background:url(/media/kas/backgrounds/module_300_top.jpg) repeat-y center bottom;
+	padding:0 5px !important;
+}
+.layoutHome #mainContentCol1 .fbWall .moduleContentInner{
+	background:url(/media/kas/backgrounds/module_300_mid.jpg) repeat-y center bottom;
+}
+.layoutHome #mainContentCol1 .fbWall{
+	background:url(/media/kas/backgrounds/module_300_top.jpg) no-repeat center top;
+}
+/* 160 Column */
+.layoutHome #mainContentColExtra .smallImageLinksModule {
+	background:url(/media/kas/backgrounds/module_160_top.jpg) no-repeat center top;
+	color:#fff;
+}
+.layoutHome #mainContentColExtra .smallImageLinksModule h4.genericModuleHeader {
+	background:url(/media/kas/backgrounds/module_160_hdr.jpg) no-repeat center bottom;
+}
+.layoutHome #mainContentColExtra .smallImageLinksModule .moduleContentOuter {
+	background:url(/media/kas/backgrounds/module_160_btm.jpg) no-repeat center bottom;
+	padding-bottom:10px;
+}
+.layoutHome #mainContentColExtra .smallImageLinksModule .moduleContentInner {
+	background:url(/media/kas/backgrounds/module_160_mid.jpg) repeat-y center bottom;
+	padding:192px 12px 5px;
+	position:relative;
+}
+.layoutHome #mainContentColExtra .smallImageLinksModule .moduleContentInner img.feat {
+	position:absolute;
+	top:0;
+	left:5px;
+}
+.linkList {
+	list-style:none;
+	margin:0;
+	padding: 7px 0 0 0;
+}
+.layoutHome  #mainContentColExtra .smallImageLinksModule .linkList li a {
+	background:url(/media/kas/icons/ico_gold_flag.png) no-repeat left 3px;
+	padding-left:15px;
+	color:#43acd4;
+}
+* html .layoutHome  #mainContentColExtra .smallImageLinksModule .linkList li a {
+	background:url(/media/kas/icons/ico_gold_flag.gif) no-repeat left 3px;
+}
+.layoutHome  #mainContentColExtra .smallImageLinksModule .linkList li a:hover	{
+	color:#ad5b01;
+}
+/* 214 Column */
+.layoutK #mainContentCol2 .moduleWrap,
+.layoutK #mainContentCol3 .moduleWrap,
+.layoutK #mainContentCol4 .moduleWrap {
+}
+.layoutK #mainContentCol2 .moduleContentOuter,
+.layoutK #mainContentCol3 .moduleContentOuter,
+.layoutK #mainContentCol4 .moduleContentOuter {
+	padding-bottom:9px;
+	width: 203px;
+}
+.layoutK #mainContentCol2 .moduleContentInner,
+.layoutK #mainContentCol3 .moduleContentInner,
+.layoutK #mainContentCol4 .moduleContentInner{
+	padding:0 5px 0 0;
+}
+.layoutK #mainContentCol2 .moduleContentInner p strong{
+	color: #b8c4fa;
+	
+}
+.layoutK #mainContentCol2 .moduleContentInner a strong{
+	color: #fff;
+}
+.layoutK #mainContentCol2 .moduleContentInner a strong:hover{
+	color: #ffc629;
+}
+/* 240 Column */
+.layoutA #mainContentColExtra .moduleWrap,
+.layoutA #mainContentCol1 .moduleWrap,
+.layoutAa #mainContentCol2 .moduleWrap,
+.layoutAa #mainContentCol3 .moduleWrap,
+.layoutC #mainContentCol2 .moduleWrap,
+.layoutC #mainContentCol3 .moduleWrap {
+	background:url(/media/kas/backgrounds/module_240_top.jpg) no-repeat 0 top;
+}
+.layoutA #mainContentColExtra .moduleContentOuter,
+.layoutA #mainContentCol1 .moduleContentOuter,
+.layoutAa #mainContentCol2 .moduleContentOuter,
+.layoutAa #mainContentCol3 .moduleContentOuter,
+.layoutC #mainContentCol2 .moduleContentOuter,
+.layoutC #mainContentCol3 .moduleContentOuter {
+	background:url(/media/kas/backgrounds/module_240_btm.jpg) no-repeat 0 bottom;
+	padding-bottom:10px;
+}
+.layoutA #mainContentColExtra .moduleContentInner,
+.layoutA #mainContentCol1 .moduleContentInner,
+.layoutAa #mainContentCol2 .moduleContentInner,
+.layoutAa #mainContentCol3 .moduleContentInner,
+.layoutC #mainContentCol2 .moduleContentInner,
+.layoutC #mainContentCol3 .moduleContentInner {
+	background:url(/media/kas/backgrounds/module_240_mid.jpg) repeat-y 0 0;
+	padding:5px 12px;
+}
+/* 300 Column */
+.layoutA #mainContentCol2 .calendarContentDuring,
+.layoutAa #mainContentColExtra .calendarContentDuring,
+.layoutC #mainContentColExtra .calendarContentDuring,
+.layoutF #mainContentCol1 .calendarContentDuring,
+.layoutG #mainContentCol1 .calendarContentDuring,
+.layoutGa #mainContentCol1 .calendarContentDuring,
+.layoutK #mainContentColExtra .calendarContentDuring,
+.layoutL #mainContentColExtra .calendarContentDuring {
+	width:300px !important;
+}
+.scheduleBlurb {
+	padding:5px 10px;
+	margin: 0 0 0 20px;
+}
+.layoutA #mainContentCol2 .calendarContentDuring h4,
+.layoutAa #mainContentColExtra .calendarContentDuring h4,
+.layoutC #mainContentColExtra .calendarContentDuring h4,
+.layoutF #mainContentCol1 .calendarContentDuring h4,
+.layoutG #mainContentCol1 .calendarContentDuring h4,
+.layoutGa #mainContentCol1 .calendarContentDuring h4,
+.layoutK #mainContentColExtra .calendarContentDuring h4,
+.layoutL #mainContentColExtra .calendarContentDuring h4 {
+	width:270px !important;
+}
+.layoutA #mainContentCol2 .calendarContentDuring .hdrBar,
+.layoutAa #mainContentColExtra .calendarContentDuring .hdrBar,
+.layoutC #mainContentColExtra .calendarContentDuring .hdrBar,
+.layoutF #mainContentCol1 .calendarContentDuring .hdrBar,
+.layoutG #mainContentCol1 .calendarContentDuring .hdrBar,
+.layoutGa #mainContentCol1 .calendarContentDuring .hdrBar,
+.layoutK #mainContentColExtra .calendarContentDuring .hdrBar,
+.layoutL #mainContentColExtra .calendarContentDuring .hdrBar {
+	background:url(/media/kas/backgrounds/module_300_hdr.jpg) no-repeat center bottom !important;
+}
+.layoutA #mainContentCol2 .calendarContentDuring .genericTabs,
+.layoutAa #mainContentColExtra .calendarContentDuring .genericTabs,
+.layoutC #mainContentColExtra .calendarContentDuring .genericTabs,
+.layoutF #mainContentCol1 .calendarContentDuring .genericTabs,
+.layoutG #mainContentCol1 .calendarContentDuring .genericTabs,
+.layoutGa #mainContentCol1 .calendarContentDuring .genericTabs,
+.layoutK #mainContentColExtra .calendarContentDuring .genericTabs,
+.layoutL #mainContentColExtra .calendarContentDuring .genericTabs {
+	width:290px;
+}
+* html .layoutA #mainContentCol2 .calendarContentDuring .genericTabs,
+* html .layoutAa #mainContentColExtra .calendarContentDuring .genericTabs,
+* html .layoutC #mainContentColExtra .calendarContentDuring .genericTabs,
+* html .layoutF #mainContentCol1 .calendarContentDuring .genericTabs,
+* html .layoutG #mainContentCol1 .calendarContentDuring .genericTabs,
+* html .layoutGa #mainContentCol1 .calendarContentDuring .genericTabs,
+* html .layoutK #mainContentColExtra .calendarContentDuring .genericTabs,
+* html .layoutL #mainContentColExtra .calendarContentDuring .genericTabs {
+	margin:0 2px 0 3px;
+	width:289px;
+}
+.layoutA #mainContentCol2 .calendarContentDuring li.withImage,
+.layoutAa #mainContentColExtra .calendarContentDuring li.withImage,
+.layoutC #mainContentColExtra .calendarContentDuring li.withImage,
+.layoutF #mainContentCol1 .calendarContentDuring li.withImage,
+.layoutG #mainContentCol1 .calendarContentDuring li.withImage,
+.layoutGa #mainContentCol1 .calendarContentDuring li.withImage,
+.layoutK #mainContentColExtra .calendarContentDuring li.withImage,
+.layoutL #mainContentColExtra .calendarContentDuring li.withImage {
+	width:165px;
+}
+.layoutA #mainContentCol2 .calendarContentDuring .calendarContentMain,
+.layoutAa #mainContentColExtra .calendarContentDuring .calendarContentMain,
+.layoutC #mainContentColExtra .calendarContentDuring .calendarContentMain,
+.layoutF #mainContentCol1 .calendarContentDuring .calendarContentMain,
+.layoutG #mainContentCol1 .calendarContentDuring .calendarContentMain,
+.layoutGa #mainContentCol1 .calendarContentDuring .calendarContentMain,
+.layoutK #mainContentColExtra .calendarContentDuring .calendarContentMain,
+.layoutL #mainContentColExtra .calendarContentDuring .calendarContentMain {
+	padding-bottom:10px;
+}
+/* 325 Column */
+.layoutK #mainContentCol5 .moduleWrap,
+.layoutK #mainContentCol6 .moduleWrap,
+.layoutL #mainContentCol2 .moduleWrap,
+.layoutL #mainContentCol3 .moduleWrap {
+}
+.layoutK #mainContentCol5 .moduleContentInner,
+.layoutK #mainContentCol6 .moduleContentInner,{
+	margin: 0;
+}
+.layoutK #mainContentCol5 .moduleContentInner p,
+.layoutK #mainContentCol6 .moduleContentInner p,
+.layoutK #mainContentCol5 .moduleContentInner ul,
+.layoutK #mainContentCol6 .moduleContentInner ul,
+.layoutL #mainContentCol2 .moduleContentInner p,
+.layoutL #mainContentCol3 .moduleContentInner p,
+.layoutL #mainContentCol2 .moduleContentInner ul,
+.layoutL #mainContentCol3 .moduleContentInner ul {
+	text-align:left;
+}
+/* 490 Column */
+.layoutAa #mainContentCol1 .moduleWrap,
+.layoutAa #mainContentCol4 .moduleWrap,
+.layoutC #mainContentCol1 .moduleWrap,
+.layoutF #mainContentColExtra .moduleWrap {
+}
+.layoutAa #mainContentCol1 .moduleContentOuter,
+.layoutAa #mainContentCol4 .moduleContentOuter,
+.layoutC #mainContentCol1 .moduleContentOuter,
+.layoutF #mainContentColExtra .moduleContentOuter {
+	padding-bottom:10px;
+}
+.layoutAa #mainContentCol1 .moduleContentInner,
+.layoutAa #mainContentCol1 .moduleContentInnerInfo,
+.layoutAa #mainContentCol4 .moduleContentInner,
+.layoutAa #mainContentCol4 .moduleContentInnerInfo,
+.layoutC #mainContentCol1 .moduleContentInner,
+.layoutC #mainContentCol1 .moduleContentInnerInfo,
+.layoutF #mainContentColExtra .moduleContentInner,
+.layoutF #mainContentColExtra .moduleContentInnerInfo {
+	padding:10px 15px 5px;
+}
+/* 660 Column */
+.layoutG #mainContentColExtra .moduleWrap,
+.layoutGa #mainContentColExtra .moduleWrap,
+.layoutL #mainContentCol1 .moduleWrap,
+.layoutL #mainContentCol4 .moduleWrap,
+.layoutK #mainContentCol1 .moduleWrap {
+	width: 660px;
+}
+
+.largeImageLinksModule .moduleContentInnerInfo {
+	min-height:160px;
+	height:auto !important;
+	height:160px;
+}
+.layoutGa .calendarContentDuring,
+.layoutK .calendarContentDuring,
+.layoutL .calendarContentDuring {
+	width:660px;
+	padding:0;
+}
+.calendarContentDuring{
+	margin-bottom:10px;
+}
+.layoutK .calendarContentDuring h4,
+.layoutL .calendarContentDuring h4 {
+	width:600px;
+}
+.layoutGa .calendarContentDuring .withImage,
+.layoutK .calendarContentDuring .withImage,
+.layoutL .calendarContentDuring .withImage {
+	width:520px;
+}
+/* 800 Column */
+.layoutH #mainContentColExtra .moduleWrap {
+}
+.layoutH #mainContentColExtra .moduleContentOuter {
+	padding-bottom:10px;
+}
+.layoutH #mainContentColExtra .moduleContentInner,
+.layoutH #mainContentColExtra .moduleContentInnerInfo {
+	padding:5px 15px;
+}
+/* 970 Column */
+.layoutI #mainContentColExtra .moduleWrap {
+}
+/* -- Vert Tabs -- */
+.vertTabsModule {
+	padding-bottom:20px;
+	color:#252525;
+	font-size:11px;
+}
+.vertTabsModule .moduleContentOuter {
+	padding:0 5px  !important;
+}
+.vertTabsModule .moduleContentInner {
+	min-height:334px;
+	height:auto !important;
+	height:334px;
+	padding:0 !important;
+}
+.vertTabsModule .hdrBar {
+} 
+.vertTabsModule .hdrBar h4 {
+} 
+.vertTabsModule .vertTabs {
+	list-style:none;
+	margin:0 0 10px;
+	padding:0;
+	width:110px;
+	float:left;
+	_overflow-x:hidden;
+}
+.vertTabsModule .vertTabs li a {
+	padding:15px 10px;
+	width:90px;
+	background:#404F77;
+	display:block;
+	text-transform:uppercase;
+	text-align:right;
+	color:#fff;
+	font-size:13px;
+}
+.vertTabsModule .vertTabs li a:hover {
+	background:#4dabcf;
+}
+.vertTabsModule .vertTabs li.activeTab a,
+.vertTabsModule .vertTabs li.activeTab a:hover {
+	background:#fff;
+	color:#404F77;
+}
+.vertTabContentMain {
+	float:left;
+	width:160px;
+	padding:10px;
+}
+* html .vertTabContentMain {
+	width:150px;
+}
+.vertTabContentMain h5,
+.vertTabContentMain h5 a {
+	font-size:14px;
+	color:#fff;
+	margin:0;
+	padding:0;
+}
+.vertTabContentMain ul.linkList {
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+.vertTabContentMain ul.linkList li {
+	padding-bottom:10px;
+}
+.vertTabContentMain ul.linkList a {
+	background:#43acd4;
+	padding:2px 5px 2px 15px;
+	font-size:10px;
+	line-height:12px;
+	color:#fff;
+	text-transform:uppercase;
+}
+.vertTabContentMain ul.linkList a:hover {
+	/*color:#fbff3e;*/
+	color:#ffc629;
+}
+.vertTabContentMain .adModule {
+	text-align:left;
+}
+.vertTabContentMain .adModule p {
+	margin-bottom:5px;
+	font-size:10px;
+	color:#252525 !important;
+	font-family:Arial, Helvetica, sans-serif;
+}
+/* -- RSS Module -- */
+.rssModule ul {
+	list-style:none;
+	padding:0;
+}
+.rssModule ul li.top{
+	padding-top:0;
+}
+.rssModule ul li {
+	border-bottom:1px solid #B8C4FA;
+	padding:7px 0;
+	float:left;
+	width: 300px
+}
+.rssModule .rssDate {
+	font-size:10px;
+	width:50px;
+	float:left;
+}
+.rssModule .rssTitleInfo {
+	float:left;
+	width:250px;
+}
+.listModule ul {
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+.layoutI .listModule ul {
+	list-style:none;
+	padding:0;
+}
+
+.listModule ul li {
+	padding:0 0 5px;
+	border-bottom:1px solid #B8C4FA;
+	margin-bottom:5px;
+}
+/* -- Upcoming Events -- */
+.eventImgCont {
+	float:left;
+	clear:left;
+}
+.eventImg {
+	display:block;
+	margin:0 10px 10px 0;
+}
+.eventDetail {
+	float:left;
+	width: 204px;
+}
+.withImage .calDetail {
+	float:left;
+}
+.calDetail{
+	border-bottom:1px solid #444D77;
+}
+#calendarContent ul li:last-child .calDetail{
+	border:none;
+}
+.upcomingEventsTitle {
+	margin-bottom:5px;
+	font-weight:bold;
+	color:#a39b45;
+	font-size:14px;
+	padding-right:5px;
+}
+.upcomingEventsTitle a{
+	font-weight:bold;
+	font-size:14px
+}
+.upcomingEventsDate {
+	margin-bottom:0;
+	font-weight:normal;
+	font-size: 11px;
+	text-transform: uppercase;
+	color: #ffc629;
+}
+.upcomingEventsModule .upcomingEventsLinks {
+	font-size:0;
+	width:154px;
+	padding:10px 0;
+	line-height:0;
+}
+.upcomingEventsLinks .upcomingEventsLinkTickets, .upcomingEventsLinkTravel, .upcomingEventsLinkFacebook , .upcomingEventsLinkSchedule,
+.upcomingEventsLinkCamping{
+	margin-bottom:5px;
+}
+/* TICKETS */
+.upcomingEventsLinkTickets {
+	float:left;
+	width: 80px;
+	height: 20px;
+	background:url(/media/kas/buttons/Tickets_btn_white.png);
+	text-indent:-9999px;
+	overflow: hidden;
+}
+.upcomingEventsLinkTickets a{
+	margin-left: 10px;
+}
+
+
+.upcomingEventsLinkTickets:hover {
+}
+
+/* TRAVEL */
+.upcomingEventsLinkTravel {
+	float:left;
+	width: 80px;
+	height: 20px;
+	background:url(/media/kas/buttons/Travel_btn_white.png);
+	text-indent:-9999px;
+}
+
+.upcomingEventsLinkTravel a:hover{
+}
+.upcomingEventsLinkTravel:hover {
+}
+/* CAMPING */
+.upcomingEventsLinkCamping{
+	float:left;
+	width: 80px;
+	height: 20px;
+	background:url(/media/kas/buttons/camping_btn_white.png);
+	text-indent:-9999px;
+}
+.upcomingEventsLinkCamping:hover {
+}
+/* SCHEDULE */
+.upcomingEventsLinkSchedule{
+	float:left;
+	width: 80px;
+	height: 20px;
+	background:url(/media/kas/buttons/Schedule_btn_white.png);
+	text-indent:-9999px;
+}
+.upcomingEventsLinkSchedule:hover {
+}
+.upcomingEventsLinkFacebook:hover {
+	background-position:0 -19px;
+}
+.upcomingEventsLinkSchedule li a{
+}
+.upcomingEventsTitle .upcomingEventsLinkTickets a{
+}
+.upcomingEventsLinkFacebook {
+	overflow:hidden;
+	float:left;
+	width:95px;
+	height:19px;
+}
+.upcomingEventsLinkSchedule{
+}
+.upcomingEventsLinkSchedule:hover {
+	background-position:0 -20px;
+}
+.upcomingEventsCalLink {
+	padding:5px 0 0 0;
+	clear:both;
+}
+.upcomingEventsCalLink a {
+	padding-left:5px;
+	text-transform:uppercase;
+	font-size:10px;
+	color:#fff;
+}
+.upcomingEventsCalLink a:hover {
+	color:#ffc629;
+}
+.promoModule img {
+	margin-right:10px;
+	float:left;
+}
+.promoModule .promoDetails {
+	width:145px;
+	float:left;
+}
+.promoModule .promoDetails p {
+	margin:0;
+}
+.btnRSS {
+	background:url(/media/kas/buttons/btn_rss.jpg) no-repeat 0 0;
+	display:block;
+	width:300px;
+	height:40px;
+	text-indent:-9999px;
+	overflow:hidden;
+	margin-bottom:10px;
+}
+/* -- Wizard -- */
+.wizardModule .hdrBar {
+	width:490px;
+}
+.layoutL #mainContentCol1 .wizardModule .hdrBar,
+.layoutL #mainContentCol1 .wizardModule .wizardForm,
+.layoutL #mainContentCol4 .wizardModule .hdrBar,
+.layoutL #mainContentCol4 .wizardModule .wizardForm,
+.layoutG #mainContentColExtra .wizardModule .hdrBar,
+.layoutG #mainContentColExtra .wizardModule .wizardForm{
+	width:660px;
+}
+.wizardBlurb {
+	padding:10px;
+}
+.wizardOuter {
+	padding-bottom:15px;
+	width:100%;
+}
+.layoutH .wizardModule .hdrBar {
+	width:795px;
+}
+.layoutH .wizardModule .genericModuleHeader {
+}
+.layoutH .wizardBlurb {
+	padding:10px;
+}
+.layoutH .wizardOuter {
+	padding-bottom:4px;
+	width:100%;
+	float:left;
+}
+.layoutH .wizardInner {
+	padding:0 5px 0;
+}
+.layoutG .wizardBlurb {
+	padding:10px;
+}
+.layoutG .wizardOuter {
+	padding-bottom:4px;
+	width:100%;
+	float:left;
+}
+.layoutI .wizardModule .hdrBar {
+	width:970px;
+}
+.layoutI .wizardBlurb {
+	padding:10px;
+}
+.layoutI .wizardOuter {
+	width:100%;
+}
+.wizardMain .linkList {
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+.wizardMain .linkList li a {
+	padding-left:12px;
+}
+.wizardQ {
+	font-size:14px;
+	font-weight:normal;
+	padding-bottom:15px;
+}
+.wizardForm {
+	width: 600px;
+	padding: 0 0 10px 0;
+	color:#b8c4fa;
+}
+.layoutI .wizardForm{
+	width:970px;
+}
+.imgRadio {
+	float:left;
+}
+.imgRadio input {
+	display:block;
+	margin:10px auto 0;
+}
+.questionRow {
+	clear:both;
+}
+.questionRow input {
+	float:left;
+	margin: 0 0 0 30px;
+}
+.questionRow label {
+	float:left;
+	width:85%;
+	padding:2px 0 15px 5px;
+	
+}
+.wizardControls {
+	clear:both;
+	height:35px;
+	padding:10px 0 0 0;
+}
+.layoutH .wizardControls {
+	clear:both;
+	height:22px;
+	padding:5px 0 0 0;
+}
+.layoutG.wizardControls {
+	clear:both;
+	height:22px;
+	padding:5px 0 0 0;
+}
+.layoutI.wizardControls {
+	clear:both;
+	height:22px;
+	padding:5px 0 0 0;
+}
+.resultsHdr {
+	font-size:16px;
+	font-weight:bold;
+	color: #ffc629;
+}
+.wizardWrite .btnSubmit {
+	background:#dd0a2d;
+	text-transform: uppercase;
+	border:none;
+	font-size:12px;
+	font-weight:bold;
+	line-height:12px !important;
+	display:block;
+	margin: 0 auto;
+	color:#fff;
+	width: 75px;
+	height: 35px;
+	cursor: pointer;
+}
+.wizBackButton {
+	margin:0 7px 0 150px;
+}
+
+.wizNextButton, .wizBackButton {
+	background:#dd0a2d;
+	color:#fff;
+	padding: 7px 16px;
+	float:left;
+	text-transform: uppercase;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:normal;
+	text-transform: uppercase;
+	line-height:12px !important;
+	display:block;
+	border: none;
+}
+.wizNextButton{
+	padding: 6px 16px;
+}
+.resetWizButton {
+	background:#dd0a2d;
+	color:#fff;
+	padding:6px 16px;
+	display:block;
+	margin:0 auto;
+	width:100px;
+	text-align:center;
+	font-family: sans-serif;
+	text-transform: uppercase;
+}
+.layoutK #mainContentCol2 .moduleWrap .noHeaderITL,
+.layoutK #mainContentCol4 .moduleWrap .noHeaderITL {
+	margin: 0 0 0 30px;
+}
+.layoutK #mainContentCol3 .moduleWrap .noHeaderITL{
+	margin: 0 0 0 30px;
+	padding-bottom: 15px;
+}
+.layoutA #mainContentColExtra .moduleWrap .noHeaderITL,
+.layoutA #mainContentCol1 .moduleWrap .noHeaderITL,
+.layoutAa #mainContentCol2 .moduleWrap .noHeaderITL,
+.layoutAa #mainContentCol3 .moduleWrap .noHeaderITL,
+.layoutC #mainContentCol2 .moduleWrap .noHeaderITL,
+.layoutC #mainContentCol3 .moduleWrap .noHeaderITL {
+	padding: 2px;
+}
+.layoutA #mainContentCol2 .moduleWrap .noHeaderITL,
+.layoutAa #mainContentColExtra .moduleWrap .noHeaderITL,
+.layoutC #mainContentColExtra .moduleWrap .noHeaderITL,
+.layoutF #mainContentCol1 .moduleWrap .noHeaderITL,
+.layoutG #mainContentCol1 .moduleWrap .noHeaderITL,
+.layoutGa #mainContentCol1 .moduleWrap .noHeaderITL,
+.layoutK #mainContentColExtra .moduleWrap .noHeaderITL,
+.layoutL #mainContentColExtra .moduleWrap .noHeaderITL {
+	padding: 2px;
+}
+.layoutK #mainContentCol5 .moduleWrap .noHeaderITL,
+.layoutK #mainContentCol6 .moduleWrap .noHeaderITL,
+.layoutL #mainContentCol2 .moduleWrap .noHeaderITL,
+.layoutL #mainContentCol3 .moduleWrap .noHeaderITL {
+	margin: 0 0 0 30px;
+}
+.layoutAa #mainContentCol1 .moduleWrap .noHeaderITL,
+.layoutAa #mainContentCol4 .moduleWrap .noHeaderITL,
+.layoutC #mainContentCol1 .moduleWrap .noHeaderITL,
+.layoutF #mainContentColExtra .moduleWrap .noHeaderITL {
+	padding: 2px;
+}
+.layoutGa #mainContentColExtra .moduleWrap .noHeaderITL
+{
+	margin: 30px 0 0 30px;
+	
+}
+
+.layoutL #mainContentCol4 .moduleWrap  .noHeaderITL{
+	margin: 30px 0 0 0;
+}
+.layoutK #mainContentCol1 .moduleWrap .noHeaderITL{
+	margin: 30px 0 0 30px;
+}
+.layoutL .largeImageLinksModule .moduleContentOuter .moduleContentInner .largeImageLinks,
+.layoutL .largeImageLinksModule .moduleContentOuter .moduleContentInner .largeImageLinks,
+.layoutK .largeImageLinksModule .moduleContentOuter .moduleContentInner .largeImageLinks{
+	padding: 0 5px 0 0;
+	width: 640px;
+}
+.largeImageLinks ul{
+	list-style:disc outside none;
+	margin:0 0 10px 10px;
+}
+
+.layoutK .moduleContentInner .listModule ul{
+	margin: 0;
+	padding-top: 3px;
+}
+.layoutK #mainContentCol2 .listModule .moduleContentOuter .moduleContentInner a:hover,
+.layoutK #mainContentCol3 .listModule .moduleContentOuter .moduleContentInner a:hover,
+.layoutK #mainContentCol4 .listModule .moduleContentOuter .moduleContentInner a:hover,
+.layoutK #mainContentCol5 .listModule .moduleContentOuter .moduleContentInner a:hover,
+.layoutK #mainContentCol6 .listModule .moduleContentOuter .moduleContentInner a:hover,
+.layoutK #mainContentColExtra .listModule .moduleContentOuter .moduleContentInner a:hover{
+	color: #ffc629;
+}
+.layoutk #mainContentCol1 .moduleContentOuter moduleContentInner ul li a{
+	margin: 0 0 0 10px;
+}
+.layoutK .multipleOptIn label:first-child{
+	padding: 5px 0 10px 0;
+	margin: 25px 0 0 0;
+}
+.layoutK .multipleOptIn label{
+	margin: 0 0 0 33px;
+}
+.layoutL #mainContentCol1 .moduleWrap .noHeaderITL{
+	margin: 30px 0 0 0px;
+
+}
+.layoutH #mainContentColExtra .moduleWrap .noHeaderITL {
+	padding: 2px;
+}
+.layoutI #mainContentColExtra .moduleWrap .noHeaderITL {
+	padding: 2px;
+}
+.newListImageArticleImgCont {
+	float:left;
+}
+.addthis_toolbox{
+	height: 25px;
+    margin: 0;
+    padding-top: 5px;
+}
+.noHeaderITL{
+	display: none;
+}
+
+/* CL JM New CSS */
+.moduleWrap{
+	margin-bottom:10px;
+}
+
+.upcomingEventsList {
+    list-style: none outside none !important;
+}
+
+#showHeaderSearchButton{
+	background:url("/media/kas/backgrounds/searchicon.png") no-repeat scroll 0 0;
+	height:17px;
+	width:19px;
+	position:absolute;
+	right:65px;
+	top:98px;
+	cursor:pointer;
+}
+#headerSearchDropdown{
+	display:none;
+	background-color:#233978;
+	background-color:rgba(35, 57, 120, 0.8);
+	padding:20px;
+	position:absolute;
+	right:25px;
+	top:115px;
+	z-index:2;
+}
+#headerSearchDropdown input{
+	margin-right:-5px;
+	padding:6px;
+	width:200px;
+}
+#headerSearchDropdown button{
+	background:url("/media/kas/images/new2014/EmailEnterBtn.png") no-repeat scroll 0 0;
+	border:none;
+	height:30px;
+	text-indent:-9999px;
+	width:49px;
+}
+
+.layoutHome #mainContentColExtraHidden{
+	float: left;
+    margin-right: 10px;
+    width: 660px;
+}
+.layoutHome #mainContentCol1Hidden{
+	width: 300px;
+}
+.layoutHome #mainTripleColWrapHidden{
+	float: left;
+    width: 300px;
+}
+
+.layoutHome .hiddenEventPage{
+	width:990px;
+	float:left;
+}
+.layoutHome #mainContentColWrapHidden{
+	width:990px;
+	float:left;
+	padding:0 10px;
+}
+
+.layoutHome .hiddenEventPage .genericModuleHeader{
+	padding-left:0;
+}
+
+#close{
+	background:red;
+	width:35px;
+	height:35px;
+	display:block;
+	float:right;
+	cursor:pointer;
+	color:#000;
+	font-size:30px;
+	font-weight:bold;
+	line-height:35px;
+	text-align:center;
+}
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px)  { 
+
+/*#fullScreen{display:none !important;}*/
+html{min-width: 1024px;}
+
+}
